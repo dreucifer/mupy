@@ -1,0 +1,12 @@
+templates
+pages
+output
+static
+bin
+lib
+lib64
+include
+
+# html files
+*.htm*
+*.pyc
