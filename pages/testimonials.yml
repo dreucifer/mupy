@@ -1,0 +1,17 @@
+template: testimonials.j2
+title: Testimonials
+content: |
+    > "Hi there. I ordered your [external regulator replacement kit](/external-voltage-regulator-high-output-alternator-kit.html) and it does just what is supposed to do."
+    {: .lead }
+
+    Robert W.  
+    Ontario, Canada
+    {: .text-right }
+
+    * * *
+
+    > "I looked for a long time to find someone who knew what they were talking about"
+    {: .lead .text-right }
+
+    Wess H.  
+    Alberta, Canada

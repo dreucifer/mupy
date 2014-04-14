@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en-us"
+class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"
+content="IE=edge,chrome=1">
+
+<title>{{ title }}</title>
+<meta name="keywords" content="{{ keywords }}">
+<meta name="description" content="{{ description }}">
+<meta name="GOOGLEBOT"
+content="INDEX, FOLLOW"><!-- START CUT HERE -->
+<meta name="viewport"
+content="width=device-width">
+<link rel="author"
+href="https://plus.google.com/+alternatorman">
+<link href="https://plus.google.com/+alternatorman" rel="publisher">
+<link rel='stylesheet' href='css/main.css' type='text/css'>
+</head>
+
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div id="fb-root"></div>
+
+{% include '_header.j2' %}
+
+<div id="gridbody"
+    class="container">
+    {% block content %}
+        {{ content|safe }}
+    {% endblock %}
+</div>
+
+{% include '_footer.j2' %}
+
+</body>
+</html>

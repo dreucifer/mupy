@@ -1,0 +1,12 @@
+# virtualenv
+lib
+lib64
+bin
+include
+
+# python
+*.pyc
+
+# project folders to not VC
+output
+*.html

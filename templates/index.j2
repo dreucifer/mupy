@@ -1,0 +1,26 @@
+{% extends '_base.j2' %}
+
+{% block content %}
+    <div class='row'>
+        <div class='col-md-12'>
+            {{ top_stuff }}
+        </div>
+    </div>
+
+    <div class='alert alert-info'>
+        {{ credit_card }}
+    </div>
+
+    <div class="row text-center visible-md visible-lg">
+        {% for feature in featured %}
+        <div class="col-md-2">
+            <a href="{{ feature.href }}" name="{{ feature.value }}">
+            <img alt="{{ feature.value }}" src="{{ feature.src }}" width="100">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+
+    {{ super() }}
+{% endblock %}
