@@ -1,5 +1,5 @@
-{% import '_utils.j2' as utils %}
+{% from '_utils.j2' import tagbox as tagbox %}
 
-{% block 'content' %}
-    {{ utils._tagbox(taglist) }}
+{% block content %}
+    {{ tagbox(taglist) }}
 {% endblock %}

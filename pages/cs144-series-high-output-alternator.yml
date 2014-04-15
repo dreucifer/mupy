@@ -1,0 +1,202 @@
+template:
+    products.j2
+title:
+    CS144 Standard and High Output Alternator, Parts, and Dual Rectifier
+description:
+    Delco type CS144 series alternators. Late style available in stock and high output. Extra heavy duty dual rectifier versions also available.
+keywords:
+    cs144, high output, alternator, delco, dual rectifier, parts
+figures:
+    - alt: Stretch foot mount
+      src: '/img/DCP_0020a.JPG'
+      caption: >
+          Fig. 1: This mount is commonly used on '96-'01 3.8 liter V6 equipped with the Delco Remy CS130D type alternator.
+    - alt: Two foot, two inc mount
+      src: '/img/Cs141301.jpg'
+      caption: >
+          Fig. 2: The two foot 2" mount. It is mainly used on '96 and newer GM vehicles, commonly Chevy trucks and SUVs. A modified version will fit '90-'95 GM trucks
+    - alt: Six twelve mount
+      src: '/img/cs1443.jpg'
+      caption: >
+          Fig. 3: The 6-12 mount commonly used on Camaros, Firebirds, Caprices, Corvettes, Marine and Industrial  
+    - alt: Two foot, one inch mount
+      src: '/img/cs144-2-foot-1.jpg'
+      caption: >
+          Fig. 4: The two foot, one inch mount was very rarely used. It can be a great replacement for CS130D and Denso alternators.
+    - alt: CS130 CS144 direct fit
+      src: '/img/ALTPIC6.JPG'
+      caption: >
+          Fig. 5: Here we show the CS-130 alternator (left) next to a version of the CS-144 (right) that will fit directly in place of your existing alternator on many 1990-1995 GM vehicles. We have different versions and mounting configurations for other year, model and engine GM vehicles.
+    - alt: CS144 dual rectifier
+      src: '/img/CS1443-1.JPG'
+    - alt: cs144 single rectifier alternator
+      src: "newparts/images/Cs144s1.jpg"
+section1.md: |
+    # Delco Remy Type CS144 Alternators ALL IN ONE PAGE
+
+    Below are Dual Rectifier, Single Rectifier, High Output, Standard Output, One Wire, Remote Bridge Rectifier, Repair Parts, Upgrade Parts and more for the Delco-Remy and Delphi Automotive Systems type CS144 type Alternator
+section2.md: |
+    ## High Output Alternators, Standard Output Alternators, Alternator Upgrades, Dual Rectifier Alternators, Dual Rectifier Alternator Kits, Wiring Harness Adapters
+
+    ### Need help on Choosing the Right CS144 type Alternator? __*CALL 616-606-5045*__
+
+    The difference between the dual and single rectifier alternators. Single rectifier is less reliable and cannot produce as much, but it is also cheaper and can fit in more applications. Dual rectifier has higher output and reliability, but is more expensive and takes up more room, limiting applications. The single rectifier may be given more reliability with the addition of a quicktifier remote rectifier system. There are also three common mounting styles the GM commonly uses a 2 foot 2 inch mount, some use the 6-12 mount, and '96-'01 3.8 liter v6 using the CS-130D type alternator use a third stretched foot mount shown below.
+section3.md: |
+    ## Upgrade to the larger CS-144 series alternator. The CS-144 produces more power at idle and is much more reliable  
+
+    For Custom Applications we can install many different pulley types, like Single &amp; Dual V-Belt, 8-Groove etc.
+    {: .lead }
+section4.md: |
+    ## [CS144 Series Bridge Dual Rectifier Alternators](http://store.alternatorparts.com/cs144-series-dual-rectifier-alternators.aspx)
+
+    100% NEW, NO CORE CHARGE
+    {: .lead }
+
+    ## Delco Remy CS144 type Dual Rectifier High Output Alternator
+
+    The rectifier is the most common cause of alternator failure. It's the only choice for super heavy duty operation. If you are using your alternator to it's extreme, you must have this alterantor! Alternators produce AC current, just like the current from your house wall outlet. Then it uses a bridge rectifier, typically with 6 diodes, to convert the AC current to DC for the battery and vehicles electrical system.
+    
+section5.md: |
+    With Dual Rectifiers, you get 12 Diodes, which spreads the current load over a much larger area making the alternator twice as durable and twice as efficient at converting the AC current it makes to DC. The many benefits include:
+
+    * Less heat build up
+    * Less current loss
+    * Higher amperage output when hot
+    * More power at idle
+        
+    Plus, the service duty and life increases substantially. When the rectifier heats up the diodes won't pass as much amperage through them, therefore, the amperage output drops. With our double rectifier alternator you have twice the amperage carrying capacity and double the cooling surface area to keep the diodes cool. This all adds up to... more power, fewer heat problems and greater reliability.
+
+    CS144 series Extreme Duty dual rectifier alternators. The best alternator for your high draw situation. Eight years of proven service and reliability in the field.
+    {: .lead }
+dual_rect.md: |
+    ### Extreme Duty Dual Bridge Rectifier CS144 Series Late Style Alternator
+
+    ## [CS144 Series Extreme Duty Dual Rectifier Alternators](http://store.alternatorparts.com/cs144-series-dual-rectifier-alternators.aspx)
+
+    **Your Price: Starting at $279.95**  
+    Delco Remy type *CS144 series late style* extreme duty **dual rectifier** alternator. Includes two *heavy duty bridge rectifiers* and a standard 14.7V set point voltage regulator. Available in 140, 170, 200, 250 and on special request 350 amp variations.
+drst_alternators:
+    title:
+        'Standard Hook-Up (standard plug) Voltage Regulator Alternators'
+    products:
+        - url: "http://store.alternatorparts.com/cs144-series-140-amp-extreme-duty-dual-rectifier-alternator.aspx"
+          price: $279.95
+          name: D1-CS144-DR140
+          description:
+              CS144 series 140 amp extreme duty dual bridge rectifier alternator with heavy duty voltage regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-170-amp-extreme-duty-dual-rectifier-alternator.aspx"
+          price: $309.95
+          name: D1-CS144-DR170
+          description:
+              CS144 series 170 amp extreme duty dual bridge rectifier alternator with heavy duty voltage  regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-200-amp-extreme-duty-dual-rectifier-alternator.aspx"
+          price: $369.95
+          name: D1-CS144-DR200
+          description:
+              CS144 series 200 amp extreme duty dual bridge
+              rectifier alternator with heavy duty voltage
+              regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-250-amp-extreme-duty-dual-rectifier-alternator.aspx"
+          price: $429.95
+          name: D1-CS144-DR250
+          description:
+              CS144 series 250 amp extreme duty dual bridge
+              rectifier alternator with heavy duty voltage
+              regulator.
+        - url: "http://store.alternatorparts.com/350-amp-cs144-series-extreme-duty-dual-rectifier-alternator.aspx"
+          price: $499.95
+          name: D1-CS144-DR350
+          description:
+              CS144 series 350 amp extreme duty dual bridge
+              rectifier alternator with heavy duty voltage
+              regulator.
+drse_alternators:
+    title: 
+        Self Exciting (One-Wire) Voltage Regulator Alternators
+    products:
+        - url: "http://store.alternatorparts.com/cs144-series-140-amp-extreme-duty-dual-rectifier-self-exciting-alternator.aspx"
+          price: $299.95
+          name: D1-CS144-DR140SE
+          description:
+              CS144 series 140 amp extreme duty dual bridge
+              rectifier alternator with self exciting (one-wire)
+              voltage regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-170-amp-extreme-duty-dual-rectifier-self-exciting-alternator.aspx"
+          price: $329.95
+          name: D1-CS144-DR170SE
+          description:
+              CS144 series 170 amp extreme duty dual bridge rectifier alternator with self exciting (one-wire) voltage regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-200-amp-extreme-duty-dual-rectifier-self-exciting-alternator.aspx"
+          price: $379.95
+          name: D1-CS144-DR200SE
+          description:
+            CS144 series 200 amp extreme duty dual bridge rectifier alternator with self exciting (one-wire) voltage regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-250-amp-extreme-duty-dual-rectifier-self-exciting-alternator.aspx"
+          price: $439.95
+          name: D1-CS144-DR250SE
+          description:
+            CS144 series 250 amp extreme duty dual bridge rectifier alternator with self exciting (one-wire) voltage regulator.
+section6.md: |
+    ## [CS144 Series Single Bridge Rectifier Alternators](http://store.alternatorparts.com/cs144-series-single-rectifier-alternators.aspx)
+
+    **100% NEW, NO CORE CHARGE**
+
+    ### Delco Remy Type CS144 Series Single Bridge Rectifier
+    High Output Alternator and Standard Output Alternators with either Standard type plug-in or Self Exciting (one wire) version
+section7.md: |
+    Single Bridge Rectifier CS144 Alternators can be used to either replace a broken stock units or upgrade from smaller alternators that give less output at idle and are less reliable. The CS-144 can replace the CS130, 10Si, 12Si, 15Si, 17Si. Some slight modifications may be required and you may
+    need a wiring harness adapter, call to check on your vehicle
+
+sing_rect.md: |
+    [CS144 Series Standard Duty Single Rectifier Alternators](http://store.alternatorparts.com/cs144-series-single-rectifier-alternators.aspx)
+
+    Your Price: Starting at $179.95  
+    Delco Remy type <em>CS144 series late style</em> heavy duty <b>single rectifier alternator</b>. Includes one <em>bridge rectifier</em> and a standard 14.7V set point voltage regulator. Available in 140, 170 and 200 amp variations.
+srst_alternators:
+    title: Standard Hook-Up Voltage Regulator Alternators
+    products:
+        - url: "http://store.alternatorparts.com/cs144-series-140-amp-standard-duty-single-rectifier-alternator.aspx"
+          price: $179.95
+          name: D1-CS144-A140
+          description: >
+              CS144 series 140 amp standard duty (150 Amp rating)
+              single bridge rectifier alternator with standard (GM
+              factory type hookup) voltage regulator.
+        - url: "http://store.alternatorparts.com/140-amp-cs144-series-late-style-heavy-duty-alternator.aspx"
+          price: $199.95
+          name: D1-CS144-HD140
+          description: >
+              CS144 series 140 amp heavy duty single bridge
+              rectifier alternator with standard hook-up voltage
+              regulator. Uses heavy duty 210 amp rated bridge
+              rectifier, Original Equipment (OE) Voltage Regulator,
+              NTN &amp; INA Bearings. Original Equipment (OE)
+              Stators
+        - url: "http://store.alternatorparts.com/cs144-series-170-amp-standard-duty-single-rectifier-alternator.aspx"
+          price: $229.95
+          name: D1-CS144-A170
+          description: >
+              CS144 series 170 amp heavy duty single bridge
+              rectifier alternator with standard (GM factory type
+              hookup) voltage regulator.
+        - url: "http://store.alternatorparts.com/cs144-series-200-amp-standard-duty-single-rectifier-alternator.aspx"
+          price: $279.95
+          name: D1-CS144-A200
+          description: >
+              CS144 series 200 amp heavy duty single bridge
+              rectifier alternator with standard (GM factory type
+              hookup) voltage regulator.
+section8.md: |
+    ## [Dual Rectifier Kits](http://store.alternatorparts.com/cs144-series-dual-rectifier-alternator-kits.aspx)
+
+    ### Convert your existing Delco Remy CS144 late style alternator to a Dual Rectifier alternator. Delco Remy Type CS144 High Output Alternator Dual Rectifier Kits w/ Quicktifier Dual Remote Rectifier System
+
+    Our dual rectifier kits use the Quicktifier to increase the life and durability of your alternator. We also provide fully assembled dual rectifier rear cases to convert your existing alternator to a dual rectifier with ease.
+
+    CS144 Series dual rectifier conversion kits. Conversion housings come pre-assembled for easy conversion where space allows. We also offer Quicktifier kits to add a new rectifier without the extra space.
+quicktifier.md: |
+    ### Quicktifier Dual Remote Rectifier System 
+
+    The Quicktifier Dual and Triple Rectifier Alternator Upgrade Kit allows you to take any existing alternator and make it an extreme duty dual or triple rectifier alternator. If you simply don't have room for our Extreme Duty Dual Rectifier CS144 alternator, add the Quicktifier 210 Dual or 420 Triple Rectifier Conversion kit. Run the three AC lines from the CS144 stator leads to the three studs on the Quicktifier's bridge rectifier. Then connect the Quicktifier and your alternator together in parallel. You now have Quicktifier Dual or Triple Rectifier durability on your existing alternator.
+
+    ![WQu]

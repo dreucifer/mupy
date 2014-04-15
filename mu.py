@@ -9,6 +9,7 @@ import re
 import jinja2
 import yaml
 from markdown import markdown
+from typogrify.templatetags import jinja_filters
 
 FIND_MD = re.compile('^.*\.md$')
 DEFAULT_TEMPLATE = '_base.j2'
@@ -26,6 +27,7 @@ class Page(object):
         self.template = DEFAULT_TEMPLATE
         self.tmpl_env = jinja2.Environment(
                 loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
+        jinja_filters.register(self.tmpl_env)
 
     @classmethod
     def from_file(cls, filepath):
