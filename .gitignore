@@ -10,3 +10,7 @@ include
 # project folders to not VC
 output
 *.html
+
+pages/*
+env*
+*.csv

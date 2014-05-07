@@ -1,1399 +1,1599 @@
-template: index.j2
-title: USA Built High Output Alternators, Upgrades, Conversions, Starters, Parts, Kits and More!
-description: #1 USA Built High Output Alternators, Tech Help. We don't use cheap parts, PH 616-606-5045, we use only the best rectifiers, stators, and voltage regulators available.
-keywords: USA built high output alternators, alternator upgrades, alternator parts, starters, repair kits, bridge rectifiers, voltage regulators, brush holders
-featured:
-  - href: /Remote_Alternator_Cooling_System.htm
-    src: /img/qc003_thumb100.png
-    value: QuikCool Alternator Cooling System
-  - href: /Extreme%20Duty%20Dual%20Rectifier%20CS-144%20type.htm
-    src: /img/cs144-100px.png
-    value: CS144 Series Unit
-  - href: /quicktifier-external-bridge-rectifier.html
-    src: /img/quicktifier-100px.png
-    value: Quicktifier Thumbnail
-  - href: http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx
-    src: /img/3g-stator-100px.png
-    value: 3G Series Alternator Stator
-  - href: /6g-series-heavy-duty-alternator.html
-    src: /img/ford-powerstroke-100px.png
-    value: Ford Power Stroke 6G Series Alternator
-  - href: /alternator-parts.html
-    src: /img/6g-rectifier-100px.png
-    value: 6G Series Alterantor Rectifier
-top_stuff.md: |
-  # #1 USA Built High Output Alternators, High Amp units, Conversion , Parts, Kits, Starters and More
-
-  **We value quality, attention to detail, and specifications are not the lowest price, Quality products are never the cheapest. Buy from Quick Start, we search out the best for you.**{: .red}
-  **Using our years of experience to develop many innovative and unique solutions for Charging & Starting problems.**
-  
-credit_card.md: |
-  **SECURE ONLINE CREDIT CARD PROCESSING BY PAYPAL [Card Processing Details](#paypal)**
-
-  Shipping from multiple locations. Los Angles, CA, Ft Lauderdale FL, Orlando FL, Southaven MS, Allentown PA, Columbus KS, Atlanta GA, Kansas MO, Cincinnati OH, Blaine MN. All products may not be available at all locations at all times. If you are in a hurry, call before ordering.
-content.md: |
-    <div class="well"
-        id="tagbox">
+description: None
+keywords: USA built high output alternators, alternator upgrades, alternator parts,
+  starters, repair kits, bridge rectifiers, voltage regulators, brush holders
+title: USA Built High Output Alternators, Upgrades, Conversions, Starters, Parts,
+  Kits and More!
+body: |
+    <h1 style="font-size: 18; margin-top: 0;">
+    #1 USA Built High Output
+    Alternators, High Amp units, Conversion , Parts, Kits, Starters and More
+    </h1>
+    <p>
+    <strong class="red">
+    We value quality, attention to detail, and
+    specifications are not the lowest price, Quality products are never the
+    cheapest. Buy from Quick Start, we search out the best for you.
+    </strong>
+    <b>
+    <font size="3">
+    Using
+    our years of experience to develop many
+    innovative and unique solutions for Charging &amp; Starting problems
+    </font>
+    </b>
+    </p>
+    <div class="alert alert-info">
+    <strong>
+    <font size="2">
+    SECURE ONLINE CREDIT CARD PROCESSING BY PAYPAL
+    </font>
+    <a href="#paypal" id="paypaltop">
+    Card Processing Details
+    </a>
+    </strong>
+    <p>
+    <font size="2">
+    Shipping from multiple locations. Los Angles, CA, Ft Lauderdale FL,
+    Orlando FL, Southaven MS, Allentown PA, Columbus KS, Atlanta GA, Kansas
+    MO, Cincinnati OH, Blaine MN. All products may not be available at all
+    locations at all times. If you are in a hurry, call before ordering.
+    </font>
+    </p>
+    </div>
+    <div class="row text-center visible-md visible-lg">
+    <div class="col-md-2">
+    <a href="remote-alternator-cooling-system.html" name="QuikCool Alternator Cooling System">
+    <img alt="QuikCool Alternator Cooling System" src="images/qc003_thumb100.png" width="100"/>
+    </a>
+    </div>
+    <div class="col-md-2">
+    <br>
+    <a href="extreme-duty-dual-rectifier-cs-144-type.html" name="CS144 Series Unit">
+    <img alt="CS144 Series Unit" src="/images/cs144-100px.png" width="100"/>
+    </a>
+    </br>
+    </div>
+    <div class="col-md-2">
+    <br>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    <img alt="quicktifier thumbnail" src="/images/quicktifier-100px.png" width="100"/>
+    </a>
+    </br>
+    </div>
+    <div class="col-md-2">
+    <a href="http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx">
+    <img alt="3g stator" src="images/3g-stator-100px.png" width="100"/>
+    </a>
+    </div>
+    <div class="col-md-2">
+    <a href="6g-series-heavy-duty-alternator.html">
+    <img alt="" src="images/ford-powerstroke-100px.png" width="100"/>
+    </a>
+    </div>
+    <div class="col-md-2">
+    <br>
+    <a href="alternator-parts.html">
+    <img alt="" src="images/6g-rectifier-100px.png" width="100"/>
+    </a>
+    </br>
+    </div>
+    </div>
+    <div class="well" id="tagbox">
     <div class="row">
     <div class="col-md-4 pull-right">
-    <g:page width="290" href="//plus.google.com/+alternatorman?prsrc=5" layout="landscape" rel="publisher"></g:page>
+    <g:page href="//plus.google.com/+alternatorman?prsrc=5" layout="landscape" rel="publisher" width="290">
+    </g:page>
     <br>
-    <p class="lead"><a href="http://highoutputalternators.com">Check out
-    our new High Output Alternator Blog!</a> Send us your tips, info, and
-    installations.</p>
-
+    <p class="lead">
+    <a href="http://highoutputalternators.com">
+    Check out
+    our new High Output Alternator Blog!
+    </a>
+    Send us your tips, info, and
+    installations.
+    </p>
     <ol type="A">
     <li>
-    <a href="Alternator_installations.htm">Alternator
-    Installations</a>
+    <a href="alternator-installations.html">
+    Alternator
+    Installations
+    </a>
     </li>
-
-    <li><strong><a href="Vehicle-Repair-Safety-Tips.html">Vehicle
-    Repair Safety Tips</a></strong></li>
-
     <li>
-    <a href="alternator-parts.html">Alternator Parts</a>
+    <strong>
+    <a href="vehicle-repair-safety-tips.html">
+    Vehicle
+    Repair Safety Tips
+    </a>
+    </strong>
     </li>
-
     <li>
-    <a href="videos-alternatorman-directory.html">Videos, Official Home of
-    AlternatorMan</a>
+    <a href="alternator-parts.html">
+    Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href="alternator_exploded_views.htm">Alternator Diagram,
-    Exploded Views</a>
+    <a href="videos-alternatorman-directory.html">
+    Videos, Official Home of
+    AlternatorMan
+    </a>
     </li>
-
     <li>
-    <a href="#">Car Audio Alternator</a>
+    <a href="alternator-exploded-views.html">
+    Alternator Diagram,
+    Exploded Views
+    </a>
     </li>
-
     <li>
-    <a href="email_faq.html">Email Questions and Answers</a>
+    <a href="#">
+    Car Audio Alternator
+    </a>
     </li>
-
     <li>
-    <a href="FAQ.htm">FAQ, Frequently Asked Questions</a>
+    <a href="email-faq.html">
+    Email Questions and Answers
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "repair_manuals/alternator-repair-instructions-exploded-views.html">
-    Alternator Repair Instructions</a>
+    <a href="faq.html">
+    FAQ, Frequently Asked Questions
+    </a>
     </li>
-
     <li>
-    <a href="new_products.htm">New Products</a>
+    <a href="alternator-repair-instructions-exploded-views.html">
+    Alternator Repair Instructions
+    </a>
     </li>
-
     <li>
-    <a href="ohms_law_formulas.htm">Ohm's Law Formula</a>
+    <a href="new-products.html">
+    New Products
+    </a>
     </li>
-
     <li>
-    <a href="understanding_alternators.htm">How Does an Alternator
-    Work</a>
+    <a href="ohms-law-formulas.html">
+    Ohm's Law Formula
+    </a>
     </li>
-
     <li>
-    <a href="what_is_a_self_exciting_alternator.htm">What is a Self
-    Exciting Alternator?</a>
+    <a href="understanding-alternators.html">
+    How Does an Alternator
+    Work
+    </a>
     </li>
-
     <li>
-    <a href="alternatortroubleshooting.htm">Alternator
-    Trouble-Shooting</a>
+    <a href="what-is-a-self-exciting-alternator.html">
+    What is a Self
+    Exciting Alternator?
+    </a>
     </li>
-
     <li>
-    <a href="starter-generator-wiring-diagram.htm">Starter /
-    Generator Wiring Diagram</a>
+    <a href="alternatortroubleshooting.html">
+    Alternator
+    Trouble-Shooting
+    </a>
     </li>
-
     <li>
-    <a href="permanent%20magnet%20alternators.html">Permanent Magnet
-    Alternator</a>
+    <a href="starter-generator-wiring-diagram.html">
+    Starter /
+    Generator Wiring Diagram
+    </a>
     </li>
-
     <li>
-    <a href="alternator-components.html">Alternator Parts and
-    Components</a>
+    <a href="permanent-magnet-alternators.html">
+    Permanent Magnet
+    Alternator
+    </a>
     </li>
-
     <li>
-    <a href="signs-of-a-bad-alternator.html">Signs of a Bad
-    Alternator</a>
+    <a href="alternator-components.html">
+    Alternator Parts and
+    Components
+    </a>
     </li>
-
     <li>
-    <a href="alternator-pulley-size.html">Small Size 6-Groove
-    Serpentine Pulleys for Better Output at Idle</a>
+    <a href="signs-of-a-bad-alternator.html">
+    Signs of a Bad
+    Alternator
+    </a>
     </li>
-
     <li>
-    <a href="nlu.htm">FIT</a>
+    <a href="alternator-pulley-size.html">
+    Small Size 6-Groove
+    Serpentine Pulleys for Better Output at Idle
+    </a>
+    </li>
+    <li>
+    <a href="nlu.html">
+    FIT
+    </a>
     </li>
     </ol>
-    <a href="Remote_Alternator_Cooling_System.htm"><img src= 
-    "img/quickcool3_index.png"
-    width="200"
-    alt="QUIKCOOL - Alternator Cooling System">  &nbsp;<br>
+    <a href="remote-alternator-cooling-system.html">
+    <img alt="QUIKCOOL - Alternator Cooling System" src="images/quickcool3_index.png" width="200">
+    <br>
     Our Exclusive Innovative QuikCool Alternator
-    Cooling System</a>
-    <div class="g-ytsubscribe" data-channel="alternatorman" data-layout="default"></div>
+    Cooling System
+    </br>
+    </img>
+    </a>
+    <div class="g-ytsubscribe" data-channel="alternatorman" data-layout="default">
+    </div>
+    </br>
     </div>
     <div class="col-md-8">
-    <p>LOOK! MORE PRODUCTS AND INFORMATION BELOW… SCROLL down the page
+    <p>
+    LOOK! MORE PRODUCTS AND INFORMATION BELOW SCROLL down the page
     <br>
     To QUICK JUMP down to the category you need click on the link
-    below</p>
-
+    below
+    </br>
+    </p>
     <ol>
     <li>
-    <a href="Ford-type-High-Output-Alternators.html">Ford Parts and Units</a>
+    <a href="ford-type-high-output-alternators.html">
+    Ford Parts and Units
+    </a>
     </li>
-
     <li>
-    <a href="#gm-type">GM (General Motors) Units and Parts</a>
+    <a href="#gm-type">
+    GM (General Motors) Units and Parts
+    </a>
     </li>
-
     <li>
-    <a href="#dodge-chrysler-type">Dodge/Chrysler Units and Parts</a>
+    <a href="#dodge-chrysler-type">
+    Dodge/Chrysler Units and Parts
+    </a>
     </li>
-
     <li>
-    <a href="#import-type">Import Vehicle Units and Parts</a>
+    <a href="#import-type">
+    Import Vehicle Units and Parts
+    </a>
     </li>
-
     <li>
-    <a href="#other">Other Alternators, Starters, and Parts like farm, truck, and industrial.</a>
+    <a href="#other">
+    Other Alternators, Starters, and Parts like farm, truck, and industrial.
+    </a>
     </li>
-
     <li>
-    <a href="#more">More Units &amp; Parts, like Voltage
-    Regulators, Bridge Rectifiers, Bearings, Pulleys</a>
+    <a href="#more">
+    More Units &amp; Parts, like Voltage
+    Regulators, Bridge Rectifiers, Bearings, Pulleys
+    </a>
     </li>
-
     <li>
-    <a href="#all-starters">All Starters, Starter Parts, Drives,
-    Solenoids, Foot Switch, Housings, Brush Assemblies</a>
+    <a href="#all-starters">
+    All Starters, Starter Parts, Drives,
+    Solenoids, Foot Switch, Housings, Brush Assemblies
+    </a>
     </li>
-
     <li>
-    <a href="#small-engine">Small Engine, like starter-generators and geared starters</a>
+    <a href="#small-engine">
+    Small Engine, like starter-generators and geared starters
+    </a>
     </li>
-
     <li>
-    <a href="#snowmobile-atv-motorcycle">Snowmobile, ATV, Motorcycle</a>
+    <a href="#snowmobile-atv-motorcycle">
+    Snowmobile, ATV, Motorcycle
+    </a>
     </li>
-
     <li>
-    <a href="#marine">Marine Alternators &amp; Starters</a>&nbsp;
+    <a href="#marine">
+    Marine Alternators &amp; Starters
+    </a>
     </li>
-
     <li>
-    <a href="#pump-lift-gate">Pump, Lift Gate, Winch Motors, Inverters, Voltage Reducers and More</a>
+    <a href="#pump-lift-gate">
+    Pump, Lift Gate, Winch Motors, Inverters, Voltage Reducers and More
+    </a>
     </li>
     </ol>
-
     <ul class="list-unstyled">
     <li>
-    <a href="http://store.alternatorparts.com/highoutputalternators.aspx">High Output Alternators</a>
+    <a href="http://store.alternatorparts.com/highoutputalternators.aspx">
+    High Output Alternators
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/alternators.aspx">Standard &amp; Specialty Units</a>
+    <a href="http://store.alternatorparts.com/alternators.aspx">
+    Standard &amp; Specialty Units
+    </a>
     </li>
     </ul>
-
     <ol>
     <li id="ford-type">
-    <p>FORD TYPE UNITS</p>
-
+    <p>
+    FORD TYPE UNITS
+    </p>
     <ol>
     <li>
-    <a href="/6g-series-heavy-duty-alternator.html">Heavy Duty 6G Alternator for Ford Power Stroke Diesel</a>
+    <a href="6g-series-heavy-duty-alternator.html">
+    Heavy Duty 6G Alternator for Ford Power Stroke Diesel
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx">Alternator Parts for Ford Units</a>
+    <a href="http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx">
+    Alternator Parts for Ford Units
+    </a>
     </li>
-
     <li>
-    <a href="/Ford-type-High-Output-Alternators.html">More Ford High Amp Units</a>
+    <a href="ford-type-high-output-alternators.html">
+    More Ford High Amp Units
+    </a>
     </li>
-
     <li>
-    <a href="/Ford_3G.htm">1G Series, High Output Alternator Parts, Kits and Conversions</a>
+    <a href="ford-3g.html">
+    1G Series, High Output Alternator Parts, Kits and Conversions
+    </a>
     </li>
-
     <li>
-    <a href="/Ford_3G.htm">2G Series, 2G-to-3G High Amp Unit Conversion</a>
+    <a href="ford-3g.html">
+    2G Series, 2G-to-3G High Amp Unit Conversion
+    </a>
     </li>
-
     <li>
-    <a href="/Ford_3G.htm">3G Series, New High Amp Units &amp; Standard Output</a>
+    <a href="ford-3g.html">
+    3G Series, New High Amp Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href="/4g-series-high-amp-alternator-heavy-duty.html">4G Alternator, New High Amp Units &amp; Standard Output</a>
+    <a href="4g-series-high-amp-alternator-heavy-duty.html">
+    4G Alternator, New High Amp Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href="/6g-series-heavy-duty-alternator.html">6G Alternator Parts, Standard Amperage, and High Output Units</a>
+    <a href="6g-series-heavy-duty-alternator.html">
+    6G Alternator Parts, Standard Amperage, and High Output Units
+    </a>
     </li>
-
     <li>
-    <a href="/chrome_alternators.htm">Chrome Units</a>
+    <a href="chrome-alternators.html">
+    Chrome Units
+    </a>
     </li>
-
     <li>
-    <a href="/quicktifier-external-bridge-rectifier.html">Quicktifier External Bridge Rectifier</a>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    Quicktifier External Bridge Rectifier
+    </a>
     </li>
-
     <li>
-    <a href="/Remote_Alternator_Cooling_System.htm">QuikCool Alternator Cooling System</a>
+    <a href="remote-alternator-cooling-system.html">
+    QuikCool Alternator Cooling System
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/alternator-pulleys.aspx">Pulleys &amp; Clutch Pulleys</a>
+    <a href="http://store.alternatorparts.com/alternator-pulleys.aspx">
+    Pulleys &amp; Clutch Pulleys
+    </a>
     </li>
-
     <li>
-    <a href="/ford-5-point-4-liter-engine-alternators.html">Ford 5.4L Triton V8 Units</a>
+    <a href="ford-5-point-4-liter-engine-alternators.html">
+    Ford 5.4L Triton V8 Units
+    </a>
     </li>
-
     <li>
-    <a href="/Crown_Victoria_Alternators.htm">Crown Victoria - Mercury Grand Marquis Installation</a>
+    <a href="crown-victoria-alternators.html">
+    Crown Victoria - Mercury Grand Marquis Installation
+    </a>
     </li>
-
     <li>
-    <a href="/Ford%20Ranger_alternator_w_quicktifier.htm">Ford Ranger Installation</a>
+    <a href="ford-ranger-alternator-w-quicktifier.html">
+    Ford Ranger Installation
+    </a>
     </li>
-
     <li>
-    <a href="/ford_explorer_alternator.html">Ford Explorer - Mercury Mountaineer Installation</a>
+    <a href="ford-explorer-alternator.html">
+    Ford Explorer - Mercury Mountaineer Installation
+    </a>
     </li>
-
     <li>
-    <a href="/ford_expedition_alternator.html">Ford Expedition Installation</a>
+    <a href="ford-expedition-alternator.html">
+    Ford Expedition Installation
+    </a>
     </li>
-
     <li>
-    <a href="#Ford">Ford F Series Truck Alternator</a>
+    <a href="#Ford">
+    Ford F Series Truck Alternator
+    </a>
     </li>
-
     <li>
-    <a href="/Ford_3G.htm">Ford E Series Van Units</a>
+    <a href="ford-3g.html">
+    Ford E Series Van Units
+    </a>
     </li>
-
     <li>
-    <a href="/ford-chevy-dodge-snowplow-high-output-alternators.html">Ford Truck Snowplow Alternator</a>
+    <a href="ford-chevy-dodge-snowplow-high-output-alternators.html">
+    Ford Truck Snowplow Alternator
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/fordmotorcompany.aspx">Stock Amperage Ford Units</a>
+    <a href="http://store.alternatorparts.com/fordmotorcompany.aspx">
+    Stock Amperage Ford Units
+    </a>
     </li>
     </ol>
-    <p>&nbsp;
+    <p>
+    </p>
     </li>
-
     <li>
-    <a id="gm-type">GM TYPE UNITS</a>
-
+    <a id="gm-type">
+    GM TYPE UNITS
+    </a>
     <ol>
     <li>
-    <a href="http://store.alternatorparts.com/general-motors-alternator-parts-kits.aspx">ALTERNATOR PARTS for GM Units</a>
+    <a href="http://store.alternatorparts.com/general-motors-alternator-parts-kits.aspx">
+    ALTERNATOR PARTS for GM Units
+    </a>
     </li>
-
     <li>
-    <a href="/10dn-alternators-parts-and-kits.html">10DN Units, Parts, and Kits</a>
+    <a href="10dn-alternators-parts-and-kits.html">
+    10DN Units, Parts, and Kits
+    </a>
     </li>
-
     <li>
-    <a href="/10si-all-in-one.html">10Si Series, New High Amperage Units &amp; Standard Output</a>
+    <a href="10si-all-in-one.html">
+    10Si Series, New High Amperage Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "6_volt_alternators_negative_positive_ground.htm">6 Volt
+    <a href="6-volt-alternators-negative-positive-ground.html">
+    6 Volt
     Alternator, NEGATIVE and POSITIVE Ground, 10Si Series
-    Units</a>
+    Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "/10si-all-in-one.html#eightvolt">8 Volt Alternator, NEGATIVE
-    and POSITIVE Ground, 10Si Series Units</a>
+    <a href="10si-all-in-one.html">
+    8 Volt Alternator, NEGATIVE
+    and POSITIVE Ground, 10Si Series Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "/10si-all-in-one.html#twelvevolt">12 Volt Alternator,
-    NEGATIVE and POSITIVE Ground, 10Si Series Units</a>
+    <a href="10si-all-in-one.html">
+    12 Volt Alternator,
+    NEGATIVE and POSITIVE Ground, 10Si Series Units
+    </a>
     </li>
-
     <li>
-    <a href=
-    "/10si-12si-high-output-alternators.html">12Si Series, New High Amp Units &amp;
-    Standard Output</a> <a href=
-    "/28si_200amp_alternator.html">28Si - 200 Amp Heavy Duty
-    Truck Alternator</a>
+    <a href="10si-12si-high-output-alternators.html">
+    12Si Series, New High Amp Units &amp;
+    Standard Output
+    </a>
+    <a href="28si-200amp-alternator.html">
+    28Si - 200 Amp Heavy Duty
+    Truck Alternator
+    </a>
     </li>
-
     <li>
-    <a href=
-    "cs130-alternator.htm">CS130 Series, New High Amp Units &amp;
-    Standard Output</a>
+    <a href="cs130-alternator.html">
+    CS130 Series, New High Amp Units &amp;
+    Standard Output
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "cs130-cs130d-series-alternators.htm">CS130D Series, New High
-    Amp Units &amp; Standard Output</a>
+    <a href="cs130-cs130d-series-alternators.html">
+    CS130D Series, New High
+    Amp Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href=
-    "/cs144-series-high-output-alternator.html">CS144 Series, New High Amp Units &amp;
-    Standard Output</a>
+    <a href="cs144-series-high-output-alternator.html">
+    CS144 Series, New High Amp Units &amp;
+    Standard Output
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">AD244
-    Series, New High Amp Units &amp; Standard Output</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    AD244
+    Series, New High Amp Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">DR44G
-    Series, New High Amp Units &amp; Standard Output</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    DR44G
+    Series, New High Amp Units &amp; Standard Output
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">Chevy, GMC
-    Truck SNOWPLOW ALTERNATOR</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    Chevy, GMC
+    Truck SNOWPLOW ALTERNATOR
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://alternatorparts.com/chevy_trailblazer_GMC_envoy.htm">Trailblazer,
-    Envoy, Bravada High Watt Units</a>
+    <a href="chevy-trailblazer-gmc-envoy.html">
+    Trailblazer,
+    Envoy, Bravada High Watt Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://alternatorparts.com/7130_7140.htm">CS130 Series
-    Alternator upgrade/repair kits</a>
+    <a href="7130-7140.html">
+    CS130 Series
+    Alternator upgrade/repair kits
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://alternatorparts.com/CS-144_Special_offer.htm">Camaro, Firebird, &amp; GM Muscle car Alt
-    Upgrade</a>
+    <a href="cs-144-special-offer.html">
+    Camaro, Firebird, &amp; GM Muscle car Alt
+    Upgrade
+    </a>
     </li>
-
     <li>
-    <a href="/chevy-corvette-high-output-alternators.html">
+    <a href="chevy-corvette-high-output-alternators.html">
     Corvette High Output Alternators
     </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-pulleys.aspx">PULLEYS
-    &amp; Clutch Pulleys</a>
+    <a href="http://store.alternatorparts.com/alternator-pulleys.aspx">
+    PULLEYS
+    &amp; Clutch Pulleys
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "/General%20Motors%20type%20High%20Output%20Alternators.html">
-    More GM Type Units</a>
+    <a href="general-motors-type-high-output-alternators.html">
+    More GM Type Units
+    </a>
     </li>
-
     <li>
-    <a href=
-    "chrome_alternators.htm">Chrome Units</a>
+    <a href="chrome-alternators.html">
+    Chrome Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "quicktifier-external-bridge-rectifier.html">Quicktifier
-    External Bridge Rectifier</a>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    Quicktifier
+    External Bridge Rectifier
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "Remote_Alternator_Cooling_System.htm">QUIKCOOL - Alternator
-    Cooling System</a>
+    <a href="remote-alternator-cooling-system.html">
+    QUIKCOOL - Alternator
+    Cooling System
+    </a>
     </li>
-
     <li>
-    <a href=
-    "/category_brackets.html">DUAL ALTERNATOR BRACKET 99 &amp; up
-    GM vehicles</a>
+    <a href="category-brackets.html">
+    DUAL ALTERNATOR BRACKET 99 &amp; up
+    GM vehicles
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "Extreme%20Duty%20Dual%20Rectifier%20CS-144%20type.htm">Extreme
-    Duty Dual Rectifier CS144</a>
+    <a href="extreme-duty-dual-rectifier-cs-144-type.html">
+    Extreme
+    Duty Dual Rectifier CS144
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">CS130D/AD230
-    Upgrade to AD244</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    CS130D/AD230
+    Upgrade to AD244
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad244-a500-bracket-replace-cs130d-ad230-ad237.html">96 up
+    <a href="ad244-a500-bracket-replace-cs130d-ad230-ad237.html">
+    96 up
     Malibu, Impala, Monte Carlo, Buick, Pontiac, Olds w/ Custom
-    Mount</a>
+    Mount
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ford-chevy-dodge-snowplow-high-output-alternators.html">Chevy,
-    GMC Truck for plows</a>
+    <a href="ford-chevy-dodge-snowplow-high-output-alternators.html">
+    Chevy,
+    GMC Truck for plows
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://alternatorparts.com/dual_rect_suburban.htm">Suburban
-    Alternator Upgrade Pictures</a>
+    <a href="dual-rect-suburban.html">
+    Suburban
+    Alternator Upgrade Pictures
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "cs130d_cs144_trk_suv_upgrade.htm">99 &amp; older C, K,
-    Silverado Units</a>
+    <a href="cs130d-cs144-trk-suv-upgrade.html">
+    99 &amp; older C, K,
+    Silverado Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">00 &amp;
-    newer C,K,Silverado Units</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    00 &amp;
+    newer C,K,Silverado Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">00 &amp;
-    newer Suburban Units</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    00 &amp;
+    newer Suburban Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "cs130d_cs144_trk_suv_upgrade.htm">99 &amp; older Suburban
-    Units</a>
+    <a href="cs130d-cs144-trk-suv-upgrade.html">
+    99 &amp; older Suburban
+    Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ad230-ad244-series-high-output-alternators.html">Chevy Truck
-    Alternators</a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    Chevy Truck
+    Alternators
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/generalmotors-1.aspx">Stock
+    <a href="http://store.alternatorparts.com/generalmotors-1.aspx">
+    Stock
     Amperage GM Units
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id=
-    "dodge-chrysler-type">DODGE/CHRYSLER TYPE</a>
-
+    <a id="dodge-chrysler-type">
+    DODGE/CHRYSLER TYPE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/daimlerchrysler-1.aspx">DODGE/
-    CHRYSLER/ JEEP complete Units</a>
+    <a href="http://store.alternatorparts.com/daimlerchrysler-1.aspx">
+    DODGE/
+    CHRYSLER/ JEEP complete Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/chrysler-alternator-parts.aspx">
-    Alternator Parts for Chrysler/Dodge Units</a>
+    <a href="http://store.alternatorparts.com/chrysler-alternator-parts.aspx">
+    Alternator Parts for Chrysler/Dodge Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://alternatorparts.com/Dodge%20Chrysler%20Plymouth%20High%20Output%20Alternators.html">
-    Chrysler, Dodge, Jeep High Output Units</a>
+    <a href="dodge-chrysler-plymouth-high-output-alternators.html">
+    Chrysler, Dodge, Jeep High Output Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "Dodge_Dakota_alternator_w_quicktifier_wires.htm">Dodge
-    Dakota 200 amp Unit</a>
+    <a href="dodge-dakota-alternator-w-quicktifier-wires.html">
+    Dodge
+    Dakota 200 amp Unit
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/12385n---bosch-type-alternator--200-amp-12-volt-6-groove-clutch-pulley-used-on-2006-05-dodge-sprinter-van.aspx">
-    Dodge Sprinter Van 200 Amp Alternator</a>
+    <a href="http://store.alternatorparts.com/12385n---bosch-type-alternator--200-amp-12-volt-6-groove-clutch-pulley-used-on-2006-05-dodge-sprinter-van.aspx">
+    Dodge Sprinter Van 200 Amp Alternator
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "quicktifier-external-bridge-rectifier.html">Quicktifier
-    External Bridge Rectifier</a>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    Quicktifier
+    External Bridge Rectifier
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "Remote_Alternator_Cooling_System.htm">QUIKCOOL - Alternator
-    Cooling System</a>
+    <a href="remote-alternator-cooling-system.html">
+    QUIKCOOL - Alternator
+    Cooling System
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "ford-chevy-dodge-snowplow-high-output-alternators.html">Dodge
-    Truck Snowplow Alternator</a>
+    <a href="ford-chevy-dodge-snowplow-high-output-alternators.html">
+    Dodge
+    Truck Snowplow Alternator
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "/external-voltage-regulator-high-output-alternator-kit.html">
-    External Voltage Regulator Conversion Kit</a>
+    <a href="external-voltage-regulator-high-output-alternator-kit.html">
+    External Voltage Regulator Conversion Kit
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/repair-kits-and-upgrade-kits-4.aspx">
+    <a href="http://store.alternatorparts.com/repair-kits-and-upgrade-kits-4.aspx">
     Early Chrysler, Dodge Round Back Upgrade &amp; Repair
-    kits</a>
+    kits
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/repair-kits-and-upgrade-kits-5.aspx">
+    <a href="http://store.alternatorparts.com/repair-kits-and-upgrade-kits-5.aspx">
     Early Chrysler, Dodge Square back Upgrade &amp; Repair kits
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="import-type">IMPORT
-    TYPE</a>
-
+    <a id="import-type">
+    IMPORT
+    TYPE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/voltage-regulators.aspx">VOLTAGE
-    Regulators</a> &nbsp;
+    <a href="http://store.alternatorparts.com/voltage-regulators.aspx">
+    VOLTAGE
+    Regulators
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-parts-bridge-rectifiers.aspx">
-    BRIDGE&nbsp; Rectifiers</a>
+    <a href="http://store.alternatorparts.com/alternator-parts-bridge-rectifiers.aspx">
+    BRIDGE Rectifiers
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/ball-bearings.aspx"
-    title=
-    "Import vehicle alternator bearings">BEARINGS</a>
+    <a href="http://store.alternatorparts.com/ball-bearings.aspx" title="Import vehicle alternator bearings">
+    BEARINGS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-pulleys.aspx">PULLEYS
-    &amp; Clutch Pulleys</a>
+    <a href="http://store.alternatorparts.com/alternator-pulleys.aspx">
+    PULLEYS
+    &amp; Clutch Pulleys
+    </a>
     </li>
-
     <li>
-    <a href="#Import">Import High
-    Amperage Units</a>
+    <a href="#Import">
+    Import High
+    Amperage Units
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
-    Alternator Wiring Harnesses</a>
+    <a href="http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
+    Alternator Wiring Harnesses
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/imports.aspx">Stock
+    <a href="http://store.alternatorparts.com/imports.aspx">
+    Stock
     Amperage Import Units
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="other">OTHER UNITS</a>
-
+    <a id="other">
+    OTHER UNITS
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternators-farmtruckindustrial.aspx">
-    Units by type DELCO, BOSCH, DENSO, etc.</a>
+    <a href="http://store.alternatorparts.com/alternators-farmtruckindustrial.aspx">
+    Units by type DELCO, BOSCH, DENSO, etc.
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternators-farmtruckindustrial.aspx">
-    FARM, TRUCK, INDUSTRIAL ALTERNATORS</a>
+    <a href="http://store.alternatorparts.com/alternators-farmtruckindustrial.aspx">
+    FARM, TRUCK, INDUSTRIAL ALTERNATORS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/permanent-magnet-alternators.aspx">
-    PERMANENT MAGNET ALTERNATOR</a>
+    <a href="http://store.alternatorparts.com/permanent-magnet-alternators.aspx">
+    PERMANENT MAGNET ALTERNATOR
+    </a>
     </li>
-
     <li>
-    <a href=
-    "chrome_alternators.htm">Chrome Alternator</a>
+    <a href="chrome-alternators.html">
+    Chrome Alternator
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/smalltractorandutilityvehicle-alternators.aspx">
+    <a href="http://store.alternatorparts.com/smalltractorandutilityvehicle-alternators.aspx">
     Small Tractor &amp; Utility Vehicle
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="more">MORE UNITS &amp;
-    PARTS</a>
-
+    <a id="more">
+    MORE UNITS &amp;
+    PARTS
+    </a>
     <ol>
     <li>
-    <a href=
-    "alternator-parts.html">Alternator Parts</a>
-    &nbsp;
+    <a href="alternator-parts.html">
+    Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/voltage-regulators.aspx">VOLTAGE
-    Regulators</a>
-    &nbsp;
+    <a href="http://store.alternatorparts.com/voltage-regulators.aspx">
+    VOLTAGE
+    Regulators
+    </a>
     </li>
-
     <li>
-    <a href="http://alternatorparts.com/alternator-bridge-rectifier.html">
-    BRIDGE&nbsp; Rectifiers</a>
+    <a href="alternator-bridge-rectifier.html">
+    BRIDGE Rectifiers
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/bearings.aspx">BEARINGS,
-    Ball &amp; Needle</a>
+    <a href="http://store.alternatorparts.com/bearings.aspx">
+    BEARINGS,
+    Ball &amp; Needle
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-mounting-brackets-tractor-generator-alternator-conversion.aspx">
-    Alternator MOUNTING BRACKETS</a>
+    <a href="http://store.alternatorparts.com/alternator-mounting-brackets-tractor-generator-alternator-conversion.aspx">
+    Alternator MOUNTING BRACKETS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-pulleys.aspx">PULLEYS
-    &amp; Clutch Pulleys</a>
+    <a href="http://store.alternatorparts.com/alternator-pulleys.aspx">
+    PULLEYS
+    &amp; Clutch Pulleys
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/general-motors-alternator-parts-kits.aspx">
-    DELCO-REMY type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/general-motors-alternator-parts-kits.aspx">
+    DELCO-REMY type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx">
-    MOTORCRAFT type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/ford-family-vehicles-alternator-parts.aspx">
+    MOTORCRAFT type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/hitachi-alternator-parts.aspx">
-    HITACHI type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/hitachi-alternator-parts.aspx">
+    HITACHI type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/nippondenso-alternator-parts.aspx">DENSO
-    (NIPPONDENSO)&nbsp; type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/nippondenso-alternator-parts.aspx">
+    DENSO
+    (NIPPONDENSO) type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/mando-alternator-parts.aspx">
-    MANDO type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/mando-alternator-parts.aspx">
+    MANDO type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/mitsubishi-alternator-parts.aspx">
-    MITSUBUSHI type - Alternator Parts</a>
+    <a href="http://store.alternatorparts.com/mitsubishi-alternator-parts.aspx">
+    MITSUBUSHI type - Alternator Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/leece-neville-alternator-parts.aspx">
-    LEECE-NEVILLE Type - Units and Parts</a>
+    <a href="http://store.alternatorparts.com/leece-neville-alternator-parts.aspx">
+    LEECE-NEVILLE Type - Units and Parts
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "quicktifier-external-bridge-rectifier.html">QUICKTIFIER
-    External Bridge Rectifier</a>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    QUICKTIFIER
+    External Bridge Rectifier
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "Remote_Alternator_Cooling_System.htm">QUIKCOOL - Alternator
-    Cooling System</a>
+    <a href="remote-alternator-cooling-system.html">
+    QUIKCOOL - Alternator
+    Cooling System
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-mounting-brackets-tractor-generator-alternator-conversion.aspx">
-    GENERATOR to ALTERNATOR CONVERSION</a>
+    <a href="http://store.alternatorparts.com/alternator-mounting-brackets-tractor-generator-alternator-conversion.aspx">
+    GENERATOR to ALTERNATOR CONVERSION
+    </a>
     </li>
-
     <li>
-    <a href=
-    "10si-all-in-one.html">10Si SERIES - POSITIVE &amp; NEGATIVE
-    GROUND Units</a>
+    <a href="10si-all-in-one.html">
+    10Si SERIES - POSITIVE &amp; NEGATIVE
+    GROUND Units
+    </a>
     </li>
-
     <li>
-    <a href=
-    "10si-all-in-one.html">Hot Rod Alternator</a>
+    <a href="10si-all-in-one.html">
+    Hot Rod Alternator
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
-    WIRING HARNESS, ADAPTERS &amp; PLUGS</a>
+    <a href="http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
+    WIRING HARNESS, ADAPTERS &amp; PLUGS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-repair-rebuild-and-upgrade-kits.aspx">
-    Repair &amp; High Output Alternator Conversion Kits</a>
+    <a href="http://store.alternatorparts.com/alternator-repair-rebuild-and-upgrade-kits.aspx">
+    Repair &amp; High Output Alternator Conversion Kits
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternators.aspx">All Units
-    <br></a>
+    <a href="http://store.alternatorparts.com/alternators.aspx">
+    All Units
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="all-starters"
-    href="http://store.alternatorparts.com/starters.aspx">ALL
-    STARTERS</a>
-
+    <a href="http://store.alternatorparts.com/starters.aspx" id="all-starters">
+    ALL
+    STARTERS
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/Kubota-Starters.aspx">KUBOTA</a>
+    <a href="http://store.alternatorparts.com/Kubota-Starters.aspx">
+    KUBOTA
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/smalltractorandutilityvehicle-starters.aspx">
-    SMALL TRACTOR&amp; UTILITY VEHICLE</a>
+    <a href="http://store.alternatorparts.com/smalltractorandutilityvehicle-starters.aspx">
+    SMALL TRACTOR&amp; UTILITY VEHICLE
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/solenoid.aspx">Starter
-    Solenoids and Foot Switches</a>
+    <a href="http://store.alternatorparts.com/solenoid.aspx">
+    Starter
+    Solenoids and Foot Switches
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/starter-drives.aspx">Starter
-    Drives</a>
+    <a href="http://store.alternatorparts.com/starter-drives.aspx">
+    Starter
+    Drives
+    </a>
     </li>
-
     <li>
-    <a href="http://store.alternatorparts.com/brush-assemblies.aspx">Starter
-    Brush Assemblies</a>
+    <a href="http://store.alternatorparts.com/brush-assemblies.aspx">
+    Starter
+    Brush Assemblies
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starters-farmtruckindustrial.aspx">
-    FARM TRUCK INDUSTRIAL STARTERS</a>
+    <a href="http://store.alternatorparts.com/starters-farmtruckindustrial.aspx">
+    FARM TRUCK INDUSTRIAL STARTERS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starter-starternosesconesdrivehousingsrearhousings.aspx">
-    Nose Cones &amp; Drive End Housings</a>
+    <a href="http://store.alternatorparts.com/starter-starternosesconesdrivehousingsrearhousings.aspx">
+    Nose Cones &amp; Drive End Housings
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/startergeneratorsforgolfcartsandutilityvehicles.aspx">
-    Golf Cart &amp; Utility Vehicle</a>
+    <a href="http://store.alternatorparts.com/startergeneratorsforgolfcartsandutilityvehicles.aspx">
+    Golf Cart &amp; Utility Vehicle
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starter-stocktypeforautoandlighttruck.aspx">
-    Cars &amp; Light Trucks</a>
+    <a href="http://store.alternatorparts.com/starter-stocktypeforautoandlighttruck.aspx">
+    Cars &amp; Light Trucks
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starter-smallenginesmallenginestarters.aspx">
-    Small Engine</a>
+    <a href="http://store.alternatorparts.com/starter-smallenginesmallenginestarters.aspx">
+    Small Engine
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starters-performanceministartersracestarters.aspx">
-    Mini Race &amp; Performance Starters</a>
+    <a href="http://store.alternatorparts.com/starters-performanceministartersracestarters.aspx">
+    Mini Race &amp; Performance Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starter-smallenginesmallenginestarters.aspx">
+    <a href="http://store.alternatorparts.com/starter-smallenginesmallenginestarters.aspx">
     LAWN &amp; GARDEN (small engine)
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="small-engine">SMALL
-    ENGINE</a>
-
+    <a id="small-engine">
+    SMALL
+    ENGINE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/starter-generators-2.aspx">STARTER
-    / GENERATORS</a>
+    <a href="http://store.alternatorparts.com/starter-generators-2.aspx">
+    STARTER
+    / GENERATORS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/highoutputalternators.aspx">
-    High Output Alternator</a>
+    <a href="http://store.alternatorparts.com/highoutputalternators.aspx">
+    High Output Alternator
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/briggsandstratton.aspx">BRIGGS
-    &amp; STRATTON Starters</a>
+    <a href="http://store.alternatorparts.com/briggsandstratton.aspx">
+    BRIGGS
+    &amp; STRATTON Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/Kawasaki-Small-EngineStarters.aspx">
-    KAWASAKI Starters</a>
+    <a href="http://store.alternatorparts.com/Kawasaki-Small-EngineStarters.aspx">
+    KAWASAKI Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/kohler.aspx">KOHLER
-    STARTERS</a>
+    <a href="http://store.alternatorparts.com/kohler.aspx">
+    KOHLER
+    STARTERS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/onan.aspx">ONAN
-    Starters</a>
-    </li>
-
-    <li>
-    <a href= 
-    "http://store.alternatorparts.com/tecumseh.aspx">TECUMSEH
-    Starters</a>
-    </li>
-
-    <li>
-    <a href= 
-    "http://store.alternatorparts.com/wisconsin-robin.aspx">WISCONSON-ROBIN
-    Starters</a>
-    </li>
-
-    <li>
-    <a href= 
-    "http://store.alternatorparts.com/yanmar.aspx">YANMAR
+    <a href="http://store.alternatorparts.com/onan.aspx">
+    ONAN
     Starters
-    <br></a>
+    </a>
+    </li>
+    <li>
+    <a href="http://store.alternatorparts.com/tecumseh.aspx">
+    TECUMSEH
+    Starters
+    </a>
+    </li>
+    <li>
+    <a href="http://store.alternatorparts.com/wisconsin-robin.aspx">
+    WISCONSON-ROBIN
+    Starters
+    </a>
+    </li>
+    <li>
+    <a href="http://store.alternatorparts.com/yanmar.aspx">
+    YANMAR
+    Starters
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id=
-    "snowmobile-atv-motorcycle">SNOWMOBILE, ATV, MOTORCYCLE</a>
-
+    <a id="snowmobile-atv-motorcycle">
+    SNOWMOBILE, ATV, MOTORCYCLE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
-    Snowmobile Starters</a>
+    <a href="http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
+    Snowmobile Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
-    ATV Starters</a>
+    <a href="http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
+    ATV Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
-    Motorcycle Starters</a>
+    <a href="http://store.alternatorparts.com/motorcycleatvandsnowmobilealternatorsandstarters.aspx">
+    Motorcycle Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/polaris.aspx">POLARIS
-    Snowmobile &amp; ATV</a>
+    <a href="http://store.alternatorparts.com/polaris.aspx">
+    POLARIS
+    Snowmobile &amp; ATV
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/yamaha.aspx">YAMAHA</a>
+    <a href="http://store.alternatorparts.com/yamaha.aspx">
+    YAMAHA
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/harley-davidson.aspx">HARLEY-Davidson
-    <br></a>
+    <a href="http://store.alternatorparts.com/harley-davidson.aspx">
+    HARLEY-Davidson
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="marine">MARINE</a>
-
+    <a id="marine">
+    MARINE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-alternators.aspx">MARINE
-    UNITS - High Output Alternator &amp; Stock Amperage</a>
+    <a href="http://store.alternatorparts.com/marine-alternators.aspx">
+    MARINE
+    UNITS - High Output Alternator &amp; Stock Amperage
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-tiltandtrimmotors.aspx">
-    Marine Tilt &amp; Trim Motors</a>
+    <a href="http://store.alternatorparts.com/marine-tiltandtrimmotors.aspx">
+    Marine Tilt &amp; Trim Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-outboardstarters.aspx">
-    All Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/marine-outboardstarters.aspx">
+    All Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/forceoutboardstarters.aspx">
-    FORCE Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/forceoutboardstarters.aspx">
+    FORCE Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/hondamarinestarters.aspx">HONDA
-    Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/hondamarinestarters.aspx">
+    HONDA
+    Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/mercurymarineoutboardstarters.aspx">
-    MERCURY MARINE Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/mercurymarineoutboardstarters.aspx">
+    MERCURY MARINE Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/omcoutboardstarters.aspx">OMC
-    Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/omcoutboardstarters.aspx">
+    OMC
+    Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/suzukitohatsuoutboardstarters.aspx">
-    SUZUKI / TOHATSU Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/suzukitohatsuoutboardstarters.aspx">
+    SUZUKI / TOHATSU Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/yamahamarinestarters.aspx">YAMAHA
-    Outboard Starters</a>
+    <a href="http://store.alternatorparts.com/yamahamarinestarters.aspx">
+    YAMAHA
+    Outboard Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    PERSONAL WATERCRAFT Starters (PWC)</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    PERSONAL WATERCRAFT Starters (PWC)
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    KAWASAK (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    KAWASAK (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    SEA-DOO (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    SEA-DOO (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    YAMAHA (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    YAMAHA (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    TIGERSHARK (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    TIGERSHARK (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    HONDA (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    HONDA (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
-    POLARIS (PWC) Starters</a>
+    <a href="http://store.alternatorparts.com/marine-personalwatercraftstarters.aspx">
+    POLARIS (PWC) Starters
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/marine-inboardiostarters.aspx">
+    <a href="http://store.alternatorparts.com/marine-inboardiostarters.aspx">
     INBOARD/OUTBOARD, I/O Starters
-    <br></a>
+    <br/>
+    </a>
     </li>
     </ol>
     </li>
-
     <li>
-    <a id="pump-lift-gate">PUMP, LIFT
-    GATE, WINCH, BATTERY AND MORE</a>
-
+    <a id="pump-lift-gate">
+    PUMP, LIFT
+    GATE, WINCH, BATTERY AND MORE
+    </a>
     <ol>
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/allsmallmotors.aspx">All
-    Small Motors</a>
+    <a href="http://store.alternatorparts.com/allsmallmotors.aspx">
+    All
+    Small Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/winchmotors.aspx">WINCH
-    Motors</a>
+    <a href="http://store.alternatorparts.com/winchmotors.aspx">
+    WINCH
+    Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/pumpmotor.aspx">PUMP Motors
-    &amp; LIFT GATE Motors</a>
+    <a href="http://store.alternatorparts.com/pumpmotor.aspx">
+    PUMP Motors
+    &amp; LIFT GATE Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/compressorstartingmotor.aspx">
-    COMPRESSOR Starting Motors</a>
+    <a href="http://store.alternatorparts.com/compressorstartingmotor.aspx">
+    COMPRESSOR Starting Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/saltspreadermotors.aspx">SALT
-    SPREADER Motors</a>
+    <a href="http://store.alternatorparts.com/saltspreadermotors.aspx">
+    SALT
+    SPREADER Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-accessories-voltage-reducer-converter.aspx">
-    VOLTAGE REDUCER</a>
+    <a href="http://store.alternatorparts.com/alternator-accessories-voltage-reducer-converter.aspx">
+    VOLTAGE REDUCER
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/batteryisolators.aspx">BATTERY
-    ISOLATORS</a>
+    <a href="http://store.alternatorparts.com/batteryisolators.aspx">
+    BATTERY
+    ISOLATORS
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/mapsensors.aspx">M.A.P.
-    Sensors</a>
+    <a href="http://store.alternatorparts.com/mapsensors.aspx">
+    M.A.P.
+    Sensors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/motors.aspx">Window Lift
-    Motors</a>
+    <a href="http://store.alternatorparts.com/motors.aspx">
+    Window Lift
+    Motors
+    </a>
     </li>
-
     <li>
-    <a href= 
-    "http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
-    WIRING HARNESS, ADAPTERS &amp; PLUGS</a>
+    <a href="http://store.alternatorparts.com/alternator-wiring-products-harnesses-adapters-oe-connectors.aspx">
+    WIRING HARNESS, ADAPTERS &amp; PLUGS
+    </a>
     </li>
     </ol>
     </li>
     </ol>
     </div>
-
     </div>
-
     <div class="row">
-    <p class="col-md-12">If you cannot find what you are looking for call
-    <a rel="nofollow" href="tel:+16166065045">616-606-5045</a>, we can help guide you. <a href= 
-    "http://www.pinnaclewindpower.com/">When you are finished with this
+    <p class="col-md-12">
+    If you cannot find what you are looking for call
+    <a href="tel:+16166065045" rel="nofollow">
+    616-606-5045
+    </a>
+    , we can help guide you.
+    <a href="http://www.pinnaclewindpower.com/">
+    When you are finished with this
     site Visit "Pinnacle Wind Power."
     <br>
-    To check out our <em>Unique Wind Turbine Project</em>
-    <br></a> <strong class="red">LOOK!</strong> MORE PRODUCTS AND
-    INFORMATION BELOW… Go down the page.</p>
+    To check out our
+    <em>
+    Unique Wind Turbine Project
+    </em>
+    <br/>
+    </br>
+    </a>
+    <strong class="red">
+    LOOK!
+    </strong>
+    MORE PRODUCTS AND
+    INFORMATION BELOW Go down the page.
+    </p>
     </div>
     </div>
-
-    <p id="paypal"><strong>When you pay with your credit card you will be
-    paying through <a href="http://en.wikipedia.org/wiki/Paypal">Paypal</a>.
+    <p id="paypal">
+    <strong>
+    When you pay with your credit card you will be
+    paying through
+    <a href="http://en.wikipedia.org/wiki/Paypal">
+    Paypal
+    </a>
+    .
     PayPal is a trusted name in credit card processing and online payment. You
     do not need to sign up with PayPal or have an account to pay by credit
-    card.&nbsp;</strong></p>
-
-    <p><strong>We value Quality , attention
+    card.
+    </strong>
+    </p>
+    <p>
+    <strong>
+    We value Quality , attention
     to detail and specifications are not always price leaders, sometimes
     Quality Products are not always the cheapest ones. Buy from Quick Start, we
-    know the difference.</strong></p>
-
-    <p><strong>Stock type Alternator and Starters We will try to
+    know the difference.
+    </strong>
+    </p>
+    <p>
+    <strong>
+    Stock type Alternator and Starters We will try to
     ship from the location nearest you. We do not process orders on the
     weekend, High output alternator and high Performance Alternator orders ship
     from Michigan. All units and parts are not always in stock at all locations
-    so if your in a hurry call <a rel="nofollow" href="tel:+16166065045">616-606-5045</a> to check stock first. Search below
-    by part number or simple words like, Kohler , John Deere , <a>Honda</a> , Skid Steer
-    etc.</strong></p>
+    so if your in a hurry call
+    <a href="tel:+16166065045" rel="nofollow">
+    616-606-5045
+    </a>
+    to check stock first. Search below
+    by part number or simple words like, Kohler , John Deere ,
+    <a>
+    Honda
+    </a>
+    , Skid Steer
+    etc.
+    </strong>
+    </p>
     <hr>
-
-    <p class="lead">Find Out How To Get More From Your Charging System
-    Below</p>
-
+    <p class="lead">
+    Find Out How To Get More From Your Charging System
+    Below
+    </p>
     <div class="alert alert-info">
-    <p>This site is very large with many items. If you cannot find what you
-    are looking for just call <strong><a rel="nofollow" href="tel:+16166065045">616-606-5045</a></strong> and we will help.
-    <strong>We provide assistance with all types of alternator conversions,
-    adaptations and charging system problems.</strong></p>
+    <p>
+    This site is very large with many items. If you cannot find what you
+    are looking for just call
+    <strong>
+    <a href="tel:+16166065045" rel="nofollow">
+    616-606-5045
+    </a>
+    </strong>
+    and we will help.
+    <strong>
+    We provide assistance with all types of alternator conversions,
+    adaptations and charging system problems.
+    </strong>
+    </p>
     </div>
-
     <div class="row">
     <div class="col-md-12 text-center">
-    <ins class="adsbygoogle"
-    style="display:inline-block;width:728px;height:90px;"
-    data-ad-client="pub-0510803526364802"
-    data-ad-slot="9421118784">
+    <ins class="adsbygoogle" data-ad-client="pub-0510803526364802" data-ad-slot="9421118784" style="display:inline-block;width:728px;height:90px;">
     </ins>
     </div>
     </div>
-
     <div class="row">
-    <h2>Featured Products:</h2>
-
+    <h2>
+    Featured Products:
+    </h2>
     <div class="row">
     <div class="col-md-6">
-    <a href=
-    "Extreme%20Duty%20Dual%20Rectifier%20CS-144%20type.htm"><img class= 
-    "img-responsive center-margins"
-    alt="CS144 series unit"
-    src="img/CS1442-5.JPG"></a>
-
-    <h3 class="red">Our very innovative Extreme Duty Dual Rectifier Alternator<br>
-    This product was developed by us as a innovative solution to&nbsp;<br>
-    Bridge rectifier failure problems associated with&nbsp; the CS144
-    alternator in high demand use.</h3>
-
-    <p class="lead red"><strong><em>The Original</em> "</strong>Extreme
+    <a href="extreme-duty-dual-rectifier-cs-144-type.html">
+    <img alt="CS144 series unit" class="img-responsive center-margins" src="images/CS1442-5.JPG"/>
+    </a>
+    <h3 class="red">
+    Our very innovative Extreme Duty Dual Rectifier Alternator
+    <br>
+    This product was developed by us as a innovative solution to
+    <br>
+    Bridge rectifier failure problems associated with the CS144
+    alternator in high demand use.
+    </br>
+    </br>
+    </h3>
+    <p class="lead red">
+    <strong>
+    <em>
+    The Original
+    </em>
+    "
+    </strong>
+    Extreme
     Duty" Dual Rectifier Alternator
     <br>
-    <small class="red">150, 170, 200, 250, and now on Special Order 350
-    Amp versions, Call for Details</small></p>
-
-    <p>The Bridge Rectifier is the #1 part that fails in high output
-    alternator applications, <a href= 
-    "what_is_the_bridge_rectifier_what_does_it_do.html"><em><strong>What
-    is the Bridge Rectifier and why is it important?</strong></em></a>.
-    Stop replacing, upgrade to the alternator that lasts!</p>
-
-    <p><em>The Ultimate Choice</em> for Powering your Hydrogen Experimental Fuel
+    <small class="red">
+    150, 170, 200, 250, and now on Special Order 350
+    Amp versions, Call for Details
+    </small>
+    </br>
+    </p>
+    <p>
+    The Bridge Rectifier is the #1 part that fails in high output
+    alternator applications,
+    <a href="what-is-the-bridge-rectifier-what-does-it-do.html">
+    <em>
+    <strong>
+    What
+    is the Bridge Rectifier and why is it important?
+    </strong>
+    </em>
+    </a>
+    .
+    Stop replacing, upgrade to the alternator that lasts!
+    </p>
+    <p>
+    <em>
+    The Ultimate Choice
+    </em>
+    for Powering your Hydrogen Experimental Fuel
     Supplement system, Car Audio System, Off Road
     Lights, Emergency Vehicles, Compressors , Winches , Inverters , on-vehicle
-    Welders, <a href= 
-    "http://store.alternatorparts.com/batteryisolators.aspx">Battery
-    Isolators</a> , and more…</p><a href= 
-    "Extreme%20Duty%20Dual%20Rectifier%20CS-144%20type.htm">Click here or
-    on pictures for details on the dual rectifier CS144</a>
+    Welders,
+    <a href="http://store.alternatorparts.com/batteryisolators.aspx">
+    Battery
+    Isolators
+    </a>
+    , and more
+    </p>
+    <a href="extreme-duty-dual-rectifier-cs-144-type.html">
+    Click here or
+    on pictures for details on the dual rectifier CS144
+    </a>
     <br>
+    </br>
     </div>
-
     <div class="col-md-6">
-    <a href=
-    "external-voltage-regulator-high-output-alternator-kit.html"><img width="320"
-    height="267"
-    alt="Dodge Chrysler External Regulator system"
-    src="img/external_regulator_kit_thumb.jpg"
-    class="img-responsive center-margins"></a>
-
-    <h3 class="red">Chrysler, Dodge, Jeep External Regulator Conversion
-    Kit</h3>
-
-    <p>Is your Alternator Over Charging?
+    <a href="external-voltage-regulator-high-output-alternator-kit.html">
+    <img alt="Dodge Chrysler External Regulator system" class="img-responsive center-margins" height="267" src="images/external_regulator_kit_thumb.jpg" width="320"/>
+    </a>
+    <h3 class="red">
+    Chrysler, Dodge, Jeep External Regulator Conversion
+    Kit
+    </h3>
+    <p>
+    Is your Alternator Over Charging?
     <br>
-    Did it quit working because of a broken <a href= 
-    "http://en.wikipedia.org/wiki/Computer-controlled_Vehicle_System">vehicle
-    computer?</a>
+    Did it quit working because of a broken
+    <a href="http://en.wikipedia.org/wiki/Computer-controlled_Vehicle_System">
+    vehicle
+    computer?
+    </a>
     <br>
     You have a new High Output Alternator and you don't want to risk
-    breaking your computer?<br>
-    Our exclusive unique External Voltage Regulator kit&nbsp; was
+    breaking your computer?
+    <br>
+    Our exclusive unique External Voltage Regulator kit was
     developed buy us to solve the problem of computers where the voltage
     control has failed in the computer yet the computer runs the vehicle
-    just fine. No one else offers this product.</p>
-
-    <p>Bypass A Broken Alternator Field Module in your PCM or
-    <abbr title="Engine Control Unit">ECU</abbr>  (computer) to get your alternator
+    just fine. No one else offers this product.
+    </br>
+    </br>
+    </br>
+    </p>
+    <p>
+    Bypass A Broken Alternator Field Module in your PCM or
+    <abbr title="Engine Control Unit">
+    ECU
+    </abbr>
+    (computer) to get your alternator
     working or Prevent Damage to your computer from your High Output
-    Alternator.</p>
-
-    <p><a href=
-    "external-voltage-regulator-high-output-alternator-kit.html">Click
-    here or on picture for price and order details</a></p>
+    Alternator.
+    </p>
+    <p>
+    <a href="external-voltage-regulator-high-output-alternator-kit.html">
+    Click
+    here or on picture for price and order details
+    </a>
+    </p>
     </div>
     </div>
-
     <div class="row">
     <div class="col-md-6">
-    <a href="quicktifier-external-bridge-rectifier.html"><img class= 
-    "img-responsive center-margins"
-    alt="dual external Rectifier Alternator System"
-    src="img/quicktifier-thumb.jpg"></a>
-
-    <h3 class="red">Quicktifier External Dual and Triple Bridge Rectifier
-    System<br>
+    <a href="quicktifier-external-bridge-rectifier.html">
+    <img alt="dual external Rectifier Alternator System" class="img-responsive center-margins" src="images/quicktifier-thumb.jpg"/>
+    </a>
+    <h3 class="red">
+    Quicktifier External Dual and Triple Bridge Rectifier
+    System
+    <br>
     This problem solving product developed by our years of knowledge in
-    the auto electric field.<br>
+    the auto electric field.
+    <br>
     No one else offers a unique innovative solution to alternator bridge
-    rectifier failure like this.</h3>
-
-    <p>6, 12 and 18 diode system makes your Alternator Tougher <a href= 
-    "quicktifier-external-bridge-rectifier.html">Click here or on picture
-    for details on the External Rectifier System</a></p>
+    rectifier failure like this.
+    </br>
+    </br>
+    </h3>
+    <p>
+    6, 12 and 18 diode system makes your Alternator Tougher
+    <a href="quicktifier-external-bridge-rectifier.html">
+    Click here or on picture
+    for details on the External Rectifier System
+    </a>
+    </p>
     </div>
-
     <div class="col-md-6">
-    <a href="Remote_Alternator_Cooling_System.htm"><img class= 
-    "img-responsive center-margins"
-    src="img/quickcool3_index.png"
-    alt="QuikCool Alternator Cooling System"></a>
-
-    <h3 class="red">QuikCool Alternator Cooling System is our exclusive
-    solution to alternator overheating problems</h3>
-
-    <p>Is Heat Destroying Your Alternator? The Answer is <em>YES</em>.
+    <a href="remote-alternator-cooling-system.html">
+    <img alt="QuikCool Alternator Cooling System" class="img-responsive center-margins" src="images/quickcool3_index.png"/>
+    </a>
+    <h3 class="red">
+    QuikCool Alternator Cooling System is our exclusive
+    solution to alternator overheating problems
+    </h3>
+    <p>
+    Is Heat Destroying Your Alternator? The Answer is
+    <em>
+    YES
+    </em>
+    .
     Excess heat is the leading killer of automotive alternator, burning
     up bearings, bridge rectifiers and voltage regulators. We develpoed
     this unique exclusive system to provide fresh, cool air to your
     overheated alternator, accelerated by our
     powerful, high volume fan. We are problem solvers with this innovative
-    product developed by us.</p>
-
-    <p><a href="Remote_Alternator_Cooling_System.htm">Click Here for More
-    Info on the QuikCool Alternator Cooling System</a></p>
+    product developed by us.
+    </p>
+    <p>
+    <a href="remote-alternator-cooling-system.html">
+    Click Here for More
+    Info on the QuikCool Alternator Cooling System
+    </a>
+    </p>
     </div>
     </div>
     </div>
     <hr>
-
-    <h2 class="blue">High Output Alternator &amp; Standard Amperage Units,
-    Click Your Vehicle Family Below:</h2>
-
+    <h2 class="blue">
+    High Output Alternator &amp; Standard Amperage Units,
+    Click Your Vehicle Family Below:
+    </h2>
     <ul class="list-inline lead">
     <li>
-    <a href="#Ford">Ford</a>
+    <a href="#Ford">
+    Ford
+    </a>
     </li>
-
     <li>
-    <a href="#GM">Chevy</a>
+    <a href="#GM">
+    Chevy
+    </a>
     </li>
-
     <li>
-    <a href="#Chrysler">Dodge, Chrysler, Jeep</a>
+    <a href="#Chrysler">
+    Dodge, Chrysler, Jeep
+    </a>
     </li>
-
     <li>
-    <a href="#Import">Imports</a>
+    <a href="#Import">
+    Imports
+    </a>
     </li>
-
     <li>
-    <a href="high_output_alternators.htm">Custom Applications</a>
+    <a href="high-output-alternators.html">
+    Custom Applications
+    </a>
     </li>
     </ul>
-
-    <p class="red lead">More Output, More Amperage, More Watts for your High Demand
-    Applications.</p>
-
-    <p>When Finished with this site please go to <a href= 
-    "http://www.pinnaclewindpower.com">www.pinnaclewindpower.com</a> read the
-    announcement and info about our program, do what it says. <em>Alternative
-    energy rules!</em>  Wind
+    <p class="red lead">
+    More Output, More Amperage, More Watts for your High Demand
+    Applications.
+    </p>
+    <p>
+    When Finished with this site please go to
+    <a href="http://www.pinnaclewindpower.com">
+    www.pinnaclewindpower.com
+    </a>
+    read the
+    announcement and info about our program, do what it says.
+    <em>
+    Alternative
+    energy rules!
+    </em>
+    Wind
     power , Solar
     power , Hydrogen , Thermal energy
     and more...
-    <br></p>
-
-    <p>Read the latest article on Over Unity, what is over unity and how is
-    this concept being used improperly.</p>
-
-    <p><a href="http://www.asktherebuilder.com/forum/"><strong>click here to
-    Visit our <em>new!</em> "Ask The Rebuilder" Forum. Ask rebuilding
-    questions, <em>Get Answers</em>!</strong></a></p>
+    <br/>
+    </p>
+    <p>
+    Read the latest article on Over Unity, what is over unity and how is
+    this concept being used improperly.
+    </p>
+    <p>
+    <a href="http://www.asktherebuilder.com/forum/">
+    <strong>
+    click here to
+    Visit our
+    <em>
+    new!
+    </em>
+    "Ask The Rebuilder" Forum. Ask rebuilding
+    questions,
+    <em>
+    Get Answers
+    </em>
+    !
+    </strong>
+    </a>
+    </p>
     <hr>
-
     <div class="col-md-4">
-    <a href=
-    "ford-chevy-dodge-snowplow-high-output-alternators.html"><img class= 
-    "img-responsive center-margins"
-    alt="snow plow"
-    src="img/alternator_wA500_bracket_2.JPG"></a>
+    <a href="ford-chevy-dodge-snowplow-high-output-alternators.html">
+    <img alt="snow plow" class="img-responsive center-margins" src="images/alternator_wA500_bracket_2.JPG"/>
+    </a>
     </div>
-
-    <h4 class="red">AD244 Series High Output Alternator Upgrade for 1997 and
-    Newer GM Vehicles with 2.4L, 3.1L, 3.4L, and 3.8L Engines</h4>
-
-    <p class="red">No one else offers this solution.<br>
+    <h4 class="red">
+    AD244 Series High Output Alternator Upgrade for 1997 and
+    Newer GM Vehicles with 2.4L, 3.1L, 3.4L, and 3.8L Engines
+    </h4>
+    <p class="red">
+    No one else offers this solution.
+    <br>
     We don't follow the pack we lead with innovative solutions like the one
-    featured here</p>
-
-    <p class="lead">Delco Type AD244 Series Units for Buick , Chevy , Oldsmobile , and
-    Pontiac Vehicles</p>
-
-    <p>If you have a 2.4L, 3.1L, 3.4L, or 3.8L engine in a Buick Century,
+    featured here
+    </br>
+    </p>
+    <p class="lead">
+    Delco Type AD244 Series Units for Buick , Chevy , Oldsmobile , and
+    Pontiac Vehicles
+    </p>
+    <p>
+    If you have a 2.4L, 3.1L, 3.4L, or 3.8L engine in a Buick Century,
     Lesabre, Park Avenue, Regal, Skylark; Chevy Cavalier, Impala, Malibu, Monte
     Carlo; Oldsmobile Achieva, Alero, Cutlass; or Pontiac Bonneville, Grand Am,
     Grand Prix, Sunfire you can now install the Larger AD244 series alternator.
@@ -1401,70 +1601,106 @@ content.md: |
     alternator performance. To check for compatibility, see if the front bolt
     is parallel to the center rotor shaft and the rear bolt is perpendicular to
     the rotor shaft. The Larger AD244 series alt. has the two mounting bolts
-    that both go parallel to the center rotor shaft.</p>
-
-    <p>Our innovative exclusive U-Bracket which we developed featured on this page. Laser-cut for
+    that both go parallel to the center rotor shaft.
+    </p>
+    <p>
+    Our innovative exclusive U-Bracket which we developed featured on this page. Laser-cut for
     precision , this
     bracket allows for drop-in replacement of CS130D, AD230, and AD237 series
     that use the side-ways ear mount with AD244 units using the 2-foot 2-inch
     mount. Finally you can install our Large Case Heavy Duty AD244 unit in your
     96 or newer GM Vehicle with the alternator mounting type explained
-    above.</p>
-
-    <p><a href="/ad244-a500-bracket-replace-cs130d-ad230-ad237.html">Click here or on the picture for more info on
+    above.
+    </p>
+    <p>
+    <a href="ad244-a500-bracket-replace-cs130d-ad230-ad237.html">
+    Click here or on the picture for more info on
     GM Side Mount, Chevy Cavalier, Impala, Malibu, Monte Carlo High Output
-    Alternator</a></p>
+    Alternator
+    </a>
+    </p>
     <hr>
-
     <div class="col-md-4">
-    &nbsp;
     </div>
-
-    <h4 class="red">Ford, Chevy/GM, and Dodge/Jeep High Output
-    Alternators for Snow Plow Trucks</h4>
-
-    <p class="lead">Delco Type 10Si/12Si, AD244, CS144 Series. Ford Type 3G and
-    6G Series. and Dodge Type Nippondenso Type Units</p>
-
-    <p>Just in time for the snow season. Our Exclusive proprietary Extreme Duty Dual Rectifier CS144
+    <h4 class="red">
+    Ford, Chevy/GM, and Dodge/Jeep High Output
+    Alternators for Snow Plow Trucks
+    </h4>
+    <p class="lead">
+    Delco Type 10Si/12Si, AD244, CS144 Series. Ford Type 3G and
+    6G Series. and Dodge Type Nippondenso Type Units
+    </p>
+    <p>
+    Just in time for the snow season. Our Exclusive proprietary Extreme Duty Dual Rectifier CS144
     has what it takes to power up your dimming snowplow. We specialize in
     innovative high
-    output alternators for vehicles converted to snow plowing.</p>
-
-    <p><em>Chevy K5
-    Blazers and Silverados?</em> Use the <a href="http://alternatorparts.com/cs144-series-high-output-alternator.html"> CS144
-    series large case alternator</a>&nbsp; or the <a href="http://alternatorparts.com/ad230-ad244-series-high-output-alternators.html">AD244
-    Series large case alternator.</a>
+    output alternators for vehicles converted to snow plowing.
+    </p>
+    <p>
+    <em>
+    Chevy K5
+    Blazers and Silverados?
+    </em>
+    Use the
+    <a href="cs144-series-high-output-alternator.html">
+    CS144
+    series large case alternator
+    </a>
+    or the
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    AD244
+    Series large case alternator.
+    </a>
     <br>
-    <em>For the ford F series truck?</em> We have the <a href="http://alternatorparts.com/6g-series-heavy-duty-alternator.html"> 8253M Heavy Duty 6G Series
-    Large Case Alternator</a> or the <a href="http://alternatorparts.com/Ford_3G.htm">3G
-    series Large Case unit<br>
-    </a>For Chrysler Jeep vehicles we have the <a href="http://alternatorparts.com/Dodge%20Chrysler%20Plymouth%20High%20Output%20Alternators.html">Denso
-    type Large case units with our exclusive External Rectifier upgrade</a></p>
-
-    <p>Plow pumps, lights, flashers, and cold temps rob your vehicle's
+    <em>
+    For the ford F series truck?
+    </em>
+    We have the
+    <a href="6g-series-heavy-duty-alternator.html">
+    8253M Heavy Duty 6G Series
+    Large Case Alternator
+    </a>
+    or the
+    <a href="ford-3g.html">
+    3G
+    series Large Case unit
+    <br>
+    </br>
+    </a>
+    For Chrysler Jeep vehicles we have the
+    <a href="dodge-chrysler-plymouth-high-output-alternators.html">
+    Denso
+    type Large case units with our exclusive External Rectifier upgrade
+    </a>
+    </br>
+    </p>
+    <p>
+    Plow pumps, lights, flashers, and cold temps rob your vehicle's
     electrical system of power, you need more power at idle. We offer only
     large case alternator, maximizing your low-end output.
     <br class="clear">
+    </br>
     </p>
     <hr>
-
     <div class="col-md-4">
-    <a href="/ad230-ad244-series-high-output-alternators.html"><img class= 
-    "img-responsive center-margins"
-    alt="ad244 series unit"
-    src="/img/ad_alt1.jpg"></a>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    <img alt="ad244 series unit" class="img-responsive center-margins" src="/img/ad_alt1.jpg"/>
+    </a>
     </div>
-
-    <h4 class="red">Chevy Truck High Output Alternator for most GM Trucks Call
-    <a rel="nofollow" href="tel:+16166065045">616-606-5045</a></h4>
-
-    <p class="lead">High Output Alternator for 1999-2009 GMC &amp; Chevy Trucks
-    &amp; SUVs, Delco Remy Type AD244 Series Units</p>
-
-    <p>Install the AD244 type Large Body High Output Alternator in place of
+    <h4 class="red">
+    Chevy Truck High Output Alternator for most GM Trucks Call
+    <a href="tel:+16166065045" rel="nofollow">
+    616-606-5045
+    </a>
+    </h4>
+    <p class="lead">
+    High Output Alternator for 1999-2009 GMC &amp; Chevy Trucks
+    &amp; SUVs, Delco Remy Type AD244 Series Units
+    </p>
+    <p>
+    Install the AD244 type Large Body High Output Alternator in place of
     your small body 100-105 Amp AD230 on 1999-2009* GM vehicles. These are 100%
-    BRAND NEW&nbsp; so there is NO CORE CHARGE. With the newest exclusive
+    BRAND NEW so there is NO CORE CHARGE. With the newest exclusive
     innovative External Bridge Rectifier option the best and innovative High Amp
     Alternator technology is available, Our AD244 has proven high performance and
     reliability in the most demanding applications. This series is a direct
@@ -1472,27 +1708,33 @@ content.md: |
     1999-2009*. It can also be retrofitted for earlier model applications.
     Common applications are the Avalanche, Silverado, Escalade, Yukon,
     Suburban, Sierra, Trailblazer, Tahoe, Any Late Model Vortec V-8 and
-    more!</p>
-
-    <p><a href="ad230-ad244-series-high-output-alternators.html">Click here for
-    more info, price and to buy</a></p>
+    more!
+    </p>
+    <p>
+    <a href="ad230-ad244-series-high-output-alternators.html">
+    Click here for
+    more info, price and to buy
+    </a>
+    </p>
     <hr>
-
     <div class="col-md-4">
-    <a href="ford-powerstroke-3g-6g-series-alternator.html"><img class= 
-    "img-responsive center-margins"
-    alt="Ford 6G series alternator with Quicktifier"
-    src=
-    "img/ford-6g-series-alternator-with-quicktifier-cropped.jpg"></a>
+    <a href="ford-powerstroke-3g-6g-series-alternator.html">
+    <img alt="Ford 6G series alternator with Quicktifier" class="img-responsive center-margins" src="images/ford-6g-series-alternator-with-quicktifier-cropped.jpg"/>
+    </a>
     </div>
-
-    <h4 class="red">Ford 3G &amp; 6G type Heavy Duty High Output Alternator,
-    for Powerstroke Diesel and gas engines. Call <a rel="nofollow" href="tel:+16166065045">616-606-5045</a></h4>
-
-    <p class="lead">3G from 1992-1998 and 6G from 1999-2009 Ford 7.3L, 6.0
-    &amp; 6.4 Powerstroke Diesel 6G type High Output Alternator</p>
-
-    <p>The small case 110 Amp alternator that comes standard on the Powerstroke
+    <h4 class="red">
+    Ford 3G &amp; 6G type Heavy Duty High Output Alternator,
+    for Powerstroke Diesel and gas engines. Call
+    <a href="tel:+16166065045" rel="nofollow">
+    616-606-5045
+    </a>
+    </h4>
+    <p class="lead">
+    3G from 1992-1998 and 6G from 1999-2009 Ford 7.3L, 6.0
+    &amp; 6.4 Powerstroke Diesel 6G type High Output Alternator
+    </p>
+    <p>
+    The small case 110 Amp alternator that comes standard on the Powerstroke
     Diesel since 1999 has been plagued with reliability issues, the component
     that most often fails is the Bridge Rectifier. Upgrading the small case
     unit to a higher amperage just compounds the problems. QUICK START OFFERS
@@ -1509,150 +1751,230 @@ content.md: |
     system, Winches, Stereo, Trailer, Off-roading and more on the Ford engines.
     We also have the 3G High Output Alternator for the 98 &amp; older 7.3
     Diesel as well as for other Ford Family vehicles with Gas motors as
-    well.</p>
-
-    <p><a href="ford-powerstroke-3g-6g-series-alternator.html">Click here for
-    more info, price and to buy</a> &nbsp;</p>
+    well.
+    </p>
+    <p>
+    <a href="ford-powerstroke-3g-6g-series-alternator.html">
+    Click here for
+    more info, price and to buy
+    </a>
+    </p>
     <hr>
-
     <ol id="menulist">
     <li>
-    <a href="/power_equip_units.htm">Power Equipment &amp; Motorcycle
-    Alternator, Generator, and Starter Units:</a>
+    <a href="power-equip-units.html">
+    Power Equipment &amp; Motorcycle
+    Alternator, Generator, and Starter Units:
+    </a>
     <br>
     Small Engines: Briggs and Stratton, Kohler, Onan, Tecumseh, Wisconsin
     Robin, Yanmar; Small Tractors and Utility Vehicles: Cushman, John
     Deere, Kubota, Mitsubishi, Toro, Yanmar and more...
+    </br>
     </li>
-
     <li>
-    <a href="externally_regulated_cs144.htm">Externally Regulated Heavy
+    <a href="externally-regulated-cs144.html">
+    Externally Regulated Heavy
     Duty Dual Rectifier alternator for Diesel Marine and other Specialty
-    Use applications</a>
+    Use applications
+    </a>
     </li>
-
-    <li>&nbsp;<a href="/farm_Industria_and_Truck.htm">Farm, Heavy Duty Truck,
-    Industrial Alternator and Starter Units</a>
+    <li>
+    <a href="farm-industria-and-truck.html">
+    Farm, Heavy Duty Truck,
+    Industrial Alternator and Starter Units
+    </a>
     <br>
     Units for a wide variety of Farm, Heavy Duty Truck and Industrial
-    Equipment, <a href=
-    "http://store.alternatorparts.com/bosch.aspx">Bosch</a> , <a href= 
-    "http://store.alternatorparts.com/delco.aspx">DelcoRemy</a> , <a class= 
-    "sitewidelinks"
-    href="http://store.alternatorparts.com/ford.aspx">Ford</a> ,
-    <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/hitachi.aspx">Hitachi</a> ,
-    <a class="sitewidelinks"
-    href= 
-    "http://store.alternatorparts.com/leece-neville-series-alternators.aspx">
-    Leece-Neville</a> , <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/lucas.aspx">Lucas</a> ,
-    <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/mando.aspx">Mando</a> ,
-    <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/marelli.aspx">Marelli</a> ,
-    <a class="sitewidelinks"
-    href=
-    "http://store.alternatorparts.com/mitsubishi.aspx">Mitsubishi</a> ,
-    <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/motorola.aspx">Motorola</a>
-    , <a class="sitewidelinks"
-    href=
-    "http://store.alternatorparts.com/nippondenso.aspx">Nippondenso</a>
-    , <a class="sitewidelinks"
-    href=
-    "http://store.alternatorparts.com/prestolite.aspx">Prestolite</a> ,
-    <a class="sitewidelinks"
-    href="http://store.alternatorparts.com/romanian.aspx">Romanian</a>
+    Equipment,
+    <a href="http://store.alternatorparts.com/bosch.aspx">
+    Bosch
+    </a>
+    ,
+    <a href="http://store.alternatorparts.com/delco.aspx">
+    DelcoRemy
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/ford.aspx">
+    Ford
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/hitachi.aspx">
+    Hitachi
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/leece-neville-series-alternators.aspx">
+    Leece-Neville
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/lucas.aspx">
+    Lucas
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/mando.aspx">
+    Mando
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/marelli.aspx">
+    Marelli
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/mitsubishi.aspx">
+    Mitsubishi
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/motorola.aspx">
+    Motorola
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/nippondenso.aspx">
+    Nippondenso
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/prestolite.aspx">
+    Prestolite
+    </a>
+    ,
+    <a class="sitewidelinks" href="http://store.alternatorparts.com/romanian.aspx">
+    Romanian
+    </a>
+    </br>
     </li>
     </ol>
-
-    <p class="lead">Click Here for <a href= 
-    "http://store.alternatorparts.com/smallmotorsforsnowplowliftgateswinchespumpsslotshaftmotors.aspx">
+    <p class="lead">
+    Click Here for
+    <a href="http://store.alternatorparts.com/smallmotorsforsnowplowliftgateswinchespumpsslotshaftmotors.aspx">
     SMALL MOTORS, SNOW PLOWS, LIFT GATES, WINCHES, HYDRAULIC PUMP, SLOT SHAFT
-    MOTORS</a></p>
+    MOTORS
+    </a>
+    </p>
     <hr>
-
     <div class="row">
     <div class="col-md-12 text-center">
-    <ins class="adsbygoogle"
-    style="display:inline-block;width:728px;height:90px;"
-    data-ad-client="pub-0510803526364802"
-    data-ad-slot="9421118784">
+    <ins class="adsbygoogle" data-ad-client="pub-0510803526364802" data-ad-slot="9421118784" style="display:inline-block;width:728px;height:90px;">
     </ins>
     </div>
     </div>
     <hr>
-
-    <h2><a class="red"
-    id="Ford"
-    href="Ford-type-High-Output-Alternators.html">Ford Type High Output
-    Alternator, Stock Amperage, &amp; Chrome Units and Information</a></h2>
-
-    <h2><a class="red"
-    id="GM"
-    href=
-    "General%20Motors%20type%20High%20Output%20Alternators.html">General
+    <h2>
+    <a class="red" href="ford-type-high-output-alternators.html" id="Ford">
+    Ford Type High Output
+    Alternator, Stock Amperage, &amp; Chrome Units and Information
+    </a>
+    </h2>
+    <h2>
+    <a class="red" href="general-motors-type-high-output-alternators.html" id="GM">
+    General
     Motors Type High Output Alternator, Stock Amperage, &amp; Chrome Units
-    and Information</a></h2>
-
-    <p class="lead">Top Quality Complete <strong class="red">100% NEW!</strong>
-    Units Ready to Install, from 80 to 350 Amps.&nbsp; for many types of
-    General Motors cars ( <strong class="red">Chevrolet, GMC, Buick, Cadillac,
-    Oldsmobile, Saturn, Pontiac, Geo, etc.</strong> ), light and heavy duty
+    and Information
+    </a>
+    </h2>
+    <p class="lead">
+    Top Quality Complete
+    <strong class="red">
+    100% NEW!
+    </strong>
+    Units Ready to Install, from 80 to 350 Amps. for many types of
+    General Motors cars (
+    <strong class="red">
+    Chevrolet, GMC, Buick, Cadillac,
+    Oldsmobile, Saturn, Pontiac, Geo, etc.
+    </strong>
+    ), light and heavy duty
     trucks, General Motors High amperage alternator, Alternator upgrades for
-    GM. If you need an upgraded high output alternator for your Jimmy, <a href= 
-    "chevy-gmc-suburban-history.html">Suburban</a> , Yukon, Tahoe, S-10 Pickup
+    GM. If you need an upgraded high output alternator for your Jimmy,
+    <a href="chevy-gmc-suburban-history.html">
+    Suburban
+    </a>
+    , Yukon, Tahoe, S-10 Pickup
     and more in the General Motors Family vehicle lineup,
-    <strong><em><u>call</u></em></strong> to see if we have one for your
-    vehicle.</p>
-
-    <h2><a class="red"
-    id="Chrysler"
-    href=
-    "Dodge%20Chrysler%20Plymouth%20High%20Output%20Alternators.html">Dodge,
+    <strong>
+    <em>
+    <u>
+    call
+    </u>
+    </em>
+    </strong>
+    to see if we have one for your
+    vehicle.
+    </p>
+    <h2>
+    <a class="red" href="dodge-chrysler-plymouth-high-output-alternators.html" id="Chrysler">
+    Dodge,
     Plymouth, Chrysler, Jeep Type High Output Alternator, Stock Amperage,
-    &amp; Chrome Units and Information</a></h2>
-
-    <h2><a class="red"
-    id="Import"
-    href="import-vehicle-high-output-alternators.html">Import Vehicle High
-    Output Alternator &amp; Stock Amperage Units and Info</a></h2>
-
-    <p class="lead">Call <strong class="red"><a rel="nofollow" href="tel:+16166065045">1-616-606-5045</a></strong> to see if
-    we have one for your vehicle.</p>
-
+    &amp; Chrome Units and Information
+    </a>
+    </h2>
+    <h2>
+    <a class="red" href="import-vehicle-high-output-alternators.html" id="Import">
+    Import Vehicle High
+    Output Alternator &amp; Stock Amperage Units and Info
+    </a>
+    </h2>
+    <p class="lead">
+    Call
+    <strong class="red">
+    <a href="tel:+16166065045" rel="nofollow">
+    1-616-606-5045
+    </a>
+    </strong>
+    to see if
+    we have one for your vehicle.
+    </p>
     <div class="alert alert-danger">
-    <strong>Note: All high output alternator orders ship from Michigan</strong>
+    <strong>
+    Note: All high output alternator orders ship from Michigan
+    </strong>
     </div>
     <hr>
-
     <div class="alert alert-success">
-    <a href="green_projects.html">Click Here for information on the many
+    <a href="green-projects.html">
+    Click Here for information on the many
     "GREEN PROJECTS" Permanent Magnet alternator for power projects, and Wind
-    Power using Auto based Units</a>
+    Power using Auto based Units
+    </a>
     </div>
-
-    <p class="lead">Easy Ordering.... For your convenience we offer several
-    ways to place an order</p>
-    <img alt="VISA logo"
-    src="img/VISA_Logo.png"><img alt="Amex Logo"
-    src="img/American_Express.png"><img alt="MC logo"
-    src="img/MasterCard_Logo.png">
-
-    <p><em>Don't have a Credit Card?</em> You can send us a check, money order
-    or you can use <a href="https://www.paypal.com/home">PayPal.com</a></p>
-
-    <p>$12.00 Minimum order. If you do not receive an order confirmation within
-    24 hours of ordering, contact us by email</p>
-
-    <a rel="nofollow" href="tel:+16166065045" class="red lead">Phone 1-616-606-5045</a>
-
-    <p>ADDITIONAL SHIPPING CHARGES WILL APPLY ON ORDERS OUTSIDE CONTINENTAL
-    USA</p>
-
-    <p>See more Links on our <a href="links.htm">Links Page</a> Page updated
-    08/16/2012</p>
-
-    <p><a href="/warranty-return_policy.htm">Sales Terms-Shipping
-    Policies-Return/Refund Policy-Product Warranty</a></p>
+    <p class="lead">
+    Easy Ordering.... For your convenience we offer several
+    ways to place an order
+    </p>
+    <img alt="VISA logo" src="images/VISA_Logo.png">
+    <img alt="Amex Logo" src="images/American_Express.png">
+    <img alt="MC logo" src="images/MasterCard_Logo.png">
+    <p>
+    <em>
+    Don't have a Credit Card?
+    </em>
+    You can send us a check, money order
+    or you can use
+    <a href="https://www.paypal.com/home">
+    PayPal.com
+    </a>
+    </p>
+    <p>
+    $12.00 Minimum order. If you do not receive an order confirmation within
+    24 hours of ordering, contact us by email
+    </p>
+    <a class="red lead" href="tel:+16166065045" rel="nofollow">
+    Phone 1-616-606-5045
+    </a>
+    <p>
+    ADDITIONAL SHIPPING CHARGES WILL APPLY ON ORDERS OUTSIDE CONTINENTAL
+    USA
+    </p>
+    <p>
+    See more Links on our
+    <a href="links.html">
+    Links Page
+    </a>
+    Page updated
+    08/16/2012
+    </p>
+    <p>
+    <a href="warranty-return-policy.html">
+    Sales Terms-Shipping
+    Policies-Return/Refund Policy-Product Warranty
+    </a>
+    </p>
+    </img></img></img></hr></hr></hr></hr></hr></hr></hr></hr></hr></hr>
+    

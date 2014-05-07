@@ -10,6 +10,9 @@ content="IE=edge,chrome=1">
 <title>{{ title }}</title>
 <meta name="keywords" content="{{ keywords }}">
 <meta name="description" content="{{ description }}">
+{% for meta_tag in meta %}
+<meta name="{{ meta_tag.id }}" content="{{ meta_tag.content }}">
+{% endfor %}
 <meta name="GOOGLEBOT"
 content="INDEX, FOLLOW"><!-- START CUT HERE -->
 <meta name="viewport"
@@ -31,11 +34,39 @@ href="https://plus.google.com/+alternatorman">
 <div id="gridbody"
     class="container">
     {% block content %}
-        {{ content|safe }}
+        {{ body|safe }}
     {% endblock %}
 </div>
 
 {% include '_footer.j2' %}
 
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://alternatorparts.com/analytics/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-251433-19', 'alternatorparts.com');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src='/js/vendor/jquery-1.10.2.min.js'></script>
+<script type="text/javascript" src='/js/vendor/modernizr-2.6.2.min.js'></script>
+<script type="text/javascript" src='/js/vendor/bootstrap.min.js'></script>
 </body>
 </html>

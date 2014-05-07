@@ -1,17 +1,24 @@
-template: testimonials.j2
-title: Testimonials
-content: |
-    > "Hi there. I ordered your [external regulator replacement kit](/external-voltage-regulator-high-output-alternator-kit.html) and it does just what is supposed to do."
-    {: .lead }
-
-    Robert W.  
-    Ontario, Canada
-    {: .text-right }
-
-    * * *
-
-    > "I looked for a long time to find someone who knew what they were talking about"
-    {: .lead .text-right }
-
-    Wess H.  
-    Alberta, Canada
+description: '{% block description %}High output alternator upgrades for your Ford
+  vehicles. 3G alternators and conversions on vehicles up to ''99, 6G series alternators
+  after.{% endblock %}'
+keywords: '{% block keywords %}high output alternators for ford type vehicles, ford
+  alternator  3g, 6g, 4G, 1G, 2G series alternator{% endblock %}'
+title: '{% block title %}{% endblock %}'
+body: |
+    <!DOCTYPE html>
+    
+    <!-- /#header.container -->
+    <div class="container" id="gridbody">
+     {% block content %}
+        {% endblock %}
+    </div>
+    <noscript>
+    <p>
+    <img alt="" src="/analytics/piwik.php?idsite=1" style="border:0"/>
+    </p>
+    </noscript>
+    <script async="" src="/js/jQl.min.js" type="text/javascript">
+    </script>
+    <script async="" src="/js/main.js" type="text/javascript">
+    </script>
+    

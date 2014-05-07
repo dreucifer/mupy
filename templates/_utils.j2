@@ -25,11 +25,16 @@
 {% endmacro %}
 
 {% macro product_table(product_set) %}
-<table class="table table-striped product-list">
+<table class="table table-striped product-list col-md-12">
     <thead>
         <tr>
             <th colspan="4">
-                {{ product_set.title }}
+                <h3>{{ product_set.title }}</h3>
+                Your Price: Starting at {{ product_set.start_price }}<br><br>
+
+                <p>
+                    {{ product_set.intro }}
+                </p>
             </th>
         </tr>
         <tr>
