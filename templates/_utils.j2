@@ -24,14 +24,12 @@
     </div>
 {% endmacro %}
 
-{% macro product_table(product_set) %}
+{% macro product_table_thumb(product_set) %}
 <table class="table table-striped product-list col-md-12">
     <thead>
         <tr>
             <th colspan="4">
                 <h3>{{ product_set.title }}</h3>
-                Your Price: Starting at {{ product_set.start_price }}<br><br>
-
                 <p>
                     {{ product_set.intro }}
                 </p>
@@ -39,16 +37,16 @@
         </tr>
         <tr>
             <th>
-                name
-            </th>
-            <th>
-                description
+                add to cart
             </th>
             <th>
                 price
             </th>
             <th>
-                add to cart
+                name
+            </th>
+            <th>
+                picture
             </th>
         </tr>
     </thead>
@@ -56,21 +54,69 @@
     {% for product in product_set.products %}
         <tr>
             <td>
-                <b>{{ product.name }}</b>
-            </td>
-            <td>
-                <p>
-                {{ product.description }}
-                </p>
+                <form action="{{ product.url }}" method="post">
+                    <input name="addtocart" src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_add.gif" type="image"/>
+                    <input src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_view.gif" type="image"/>
+                </form>
             </td>
             <td>
                 <b class='red'>{{ product.price }}</b>
             </td>
             <td>
+                <p class="bold">{{ product.name }}</p>
+            </td>
+            <td>
+                <img src="{{ product.thumb }}">
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endmacro %}
+
+{% macro product_table(product_set) %}
+<table class="table table-striped product-list col-md-12">
+    <thead>
+        <tr>
+            <th colspan="4">
+                <h3>{{ product_set.title }}</h3>
+                <p>
+                    {{ product_set.intro }}
+                </p>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                add to cart
+            </th>
+            <th>
+                price
+            </th>
+            <th>
+                name
+            </th>
+            <th>
+                description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for product in product_set.products %}
+        <tr>
+            <td>
                 <form action="{{ product.url }}" method="post">
                     <input name="addtocart" src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_add.gif" type="image"/>
                     <input src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_view.gif" type="image"/>
                 </form>
+            </td>
+            <td>
+                <b class='red'>{{ product.price }}</b>
+            </td>
+            <td>
+                <b>{{ product.name }}</b>
+            </td>
+            <td>
+                <p>{{ product.description }}</p>
             </td>
         </tr>
     {% endfor %}

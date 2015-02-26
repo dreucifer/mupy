@@ -1,9 +1,9 @@
-{% from '_utils.j2' import product_table, figure %}
+{% from '_utils.j2' import product_table_thumb, figure %}
 {% extends '_base.j2' %}
 
 {% block content %}
     {% for product_set in product_sets %}
-        {{ product_table(product_set) }}
+        {{ product_table_thumb(product_set) }}
     {% endfor %}
     <hr>
     {{ super() }}

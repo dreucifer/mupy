@@ -4,8 +4,6 @@
 class="no-js">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible"
-content="IE=edge,chrome=1">
 
 <title>{{ title }}</title>
 <meta name="keywords" content="{{ keywords }}">
@@ -20,7 +18,6 @@ content="width=device-width">
 <link rel="author"
 href="https://plus.google.com/+alternatorman">
 <link href="https://plus.google.com/+alternatorman" rel="publisher">
-<link rel='stylesheet' href='css/main.css' type='text/css'>
 </head>
 
 <body>
@@ -40,6 +37,8 @@ href="https://plus.google.com/+alternatorman">
 
 {% include '_footer.j2' %}
 
+<script type="text/javascript" async src="/js/jQl.min.js"></script>
+<script type="text/javascript" async src='/js/main.min.js'></script>
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -63,10 +62,9 @@ href="https://plus.google.com/+alternatorman">
 
   ga('create', 'UA-251433-19', 'alternatorparts.com');
   ga('send', 'pageview');
-
 </script>
-<script type="text/javascript" src='/js/vendor/jquery-1.10.2.min.js'></script>
-<script type="text/javascript" src='/js/vendor/modernizr-2.6.2.min.js'></script>
-<script type="text/javascript" src='/js/vendor/bootstrap.min.js'></script>
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-251433-19";
+</script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import os
+from filecmp import dircmp, cmpfiles
 from markdown import markdown
 from typogrify.templatetags import jinja_filters
 from urllib import unquote
@@ -23,6 +25,7 @@ HTTP_LINK = re.compile(r'^.*[:].*$')
 LOCAL = re.compile(r'^[w]*\.?alternatorparts.com')
 OUTPUT_DIR = 'output/'
 PAGES_DIR = 'pages/'
+TEMP_DIR = 'tmp/'
 ROOT_LINK = re.compile(r'^[/]$')
 TEMPLATE_DIR = 'templates/'
 
@@ -109,6 +112,7 @@ def pack_pages(fixdir='pages/'):
             pack_file(inpath)
 
 def pack_file(filepath):
+    print 'test'
     with open(filepath, 'r') as readfile:
         page_obj = yaml.load(readfile.read())
     with open(filepath, 'w') as writefile:
@@ -279,6 +283,17 @@ def import_pages():
     engine = Importer('import', PAGES_DIR)
     engine.run()
 
+def compare_directories(dcmp):
+    return cmpfiles(dcmp.left, dcmp.right, dcmp.common_files, True)
+
+def diff_output():
+    dcmp = dircmp("output", "tmp")
+    vimdiff = "vimdiff -f %s %s"
+    same_files, diff_files, funny_files = compare_directories(dcmp)
+    for filename in diff_files:
+        print filename
+        #os.system(vimdiff % (TEMP_DIR+filename, OUTPUT_DIR+filename))
+
 def mupy():
     engine = Engine(PAGES_DIR, OUTPUT_DIR)
     engine.run()
@@ -294,19 +309,21 @@ def render_page(page_name):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
             description='some helpers and management functions for mupy')
-    parser.add_argument('action', metavar='ACTION', type=str, nargs=1,
-            help='What are you going to do?')
+    parser.add_argument('action', metavar='ACTION', type=str, nargs="?",
+            help='What are you going to do?', default=mupy)
     parser.add_argument('-t', dest='target', metavar='TARGET', type=str, nargs=1,
             help='And Where?')
     args = parser.parse_args()
     if args.target:
         print args.target[0]
         try:
-            locals()[args.action[0]](args.target[0])
+            locals()[args.action](args.target[0])
+        except KeyError, err:
+            print err
+    elif args.action != mupy:
+        try:
+            locals()[args.action]()
         except KeyError, err:
             print err
     else:
-        try:
-            locals()[args.action[0]]()
-        except KeyError, err:
-            print err
+        args.action()
