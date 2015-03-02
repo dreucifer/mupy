@@ -11,6 +11,12 @@ include
 output
 *.html
 
+# database
+*.db
+
+# swap
+*.swp
+
 pages/*
 env*
 *.csv

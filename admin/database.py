@@ -3,9 +3,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine('sqlite:///mupy.db', echo=True)
 db_session = scoped_session(sessionmaker(autocommit=False,
-                                         autoflus=False,
+                                         autoflush=False,
                                          bind=engine))
 
 Base = declarative_base()

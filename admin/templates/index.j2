@@ -1,0 +1,8 @@
+{% extends "_base.j2" %}
+{% block content %}
+	<ul>
+		{% for page in pages %}
+		<li><a href="{{ url_for('edit_page', page_id=page._id) }}">{{ page.title }}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}
