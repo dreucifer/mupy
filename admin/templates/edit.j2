@@ -1,7 +1,26 @@
 {% extends "_base.j2" %}
 
+{% macro render_field(field) %}
+    {{ field.label }}
+    {{ field(**kwargs)|safe }}
+    {% if field.errors %}
+        <ul class=errors>
+        {% for error in field.errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+{% endmacro %}
+
 {% block title %}edit{% endblock %}
 
 {% block content %}
-	Edit Form
+	Edit Page Form
+    <form method="POST" action="{{ url_for('edit_page', page_id=page._id) }}">
+        {{ render_field(form.slug) }}
+        {{ render_field(form.title) }}
+        {{ render_field(form.body) }}
+        <input type="submit" value="Save">
+    </form>
 {% endblock %}

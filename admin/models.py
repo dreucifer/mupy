@@ -12,6 +12,7 @@ class Page(Base):
     title = Column(String)
     keywords = Column(String)
     description = Column(Text)
+    body = Column(Text)
 
     def __init__(self, slug=None, title=None):
         self.slug = slug

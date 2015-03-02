@@ -1,7 +1,25 @@
 {% extends "_base.j2" %}
+{% macro render_field(field) %}
+    {{ field.label }}
+    {{ field(**kwargs)|safe }}
+    {% if field.errors %}
+        <ul class=errors>
+        {% for error in field.errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+{% endmacro %}
 
 {% block title %}add{% endblock %}
 
 {% block content %}
 	Add Page Form
+    <form method="POST" action="{{ url_for('add_page') }}">
+        {{ render_field(form.slug) }}
+        {{ render_field(form.title) }}
+        {{ render_field(form.youtube) }}
+        <input type="submit" value="Add Page">
+    </form>
 {% endblock %}
