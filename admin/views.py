@@ -25,15 +25,18 @@ def add_page():
                 video_id=video_id(add_form.youtube.data))
         db_session.add(page)
         db_session.commit()
-        return redirect(url_for('edit'))
+        return redirect(url_for('edit_page', page_id=page._id))
     return render_template('add.j2', form=add_form)
 
 
-@app.route('/edit/<int:page_id>')
+@app.route('/edit/<int:page_id>', methods=['POST', 'GET'])
 def edit_page(page_id):
     """ edit a page """
     page = Page.query.get(page_id)
     form = EditForm(request.form, page)
+    if request.method == 'POST':
+        form.populate_obj(page)
+        db_session.commit()
     return render_template('edit.j2', page=page, form=form)
 
 

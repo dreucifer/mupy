@@ -1,4 +1,5 @@
-{% extends "_base.j2" %}
+{% extends "_admin_base.j2" %}
+
 {% macro render_field(field) %}
     {{ field.label }}
     {{ field(**kwargs)|safe }}

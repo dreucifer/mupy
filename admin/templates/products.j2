@@ -1,0 +1,10 @@
+{% from '_utils.j2' import product_table, figure %}
+{% extends '_base.j2' %}
+
+{% block content %}
+    {% for product_set in product_sets %}
+        {{ product_table(product_set) }}
+    {% endfor %}
+    <hr>
+    {{ super() }}
+{% endblock %}

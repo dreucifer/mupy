@@ -1,4 +1,4 @@
-{% extends "_base.j2" %}
+{% extends "_admin_base.j2" %}
 
 {% macro render_field(field) %}
     {{ field.label }}
@@ -17,10 +17,14 @@
 
 {% block content %}
 	Edit Page Form
+	<div>
+	{{ form.body.data|safe }}
+	</div>
     <form method="POST" action="{{ url_for('edit_page', page_id=page._id) }}">
         {{ render_field(form.slug) }}
         {{ render_field(form.title) }}
         {{ render_field(form.body) }}
         <input type="submit" value="Save">
     </form>
+	<script>CKEDITOR.replace('body')</script>
 {% endblock %}

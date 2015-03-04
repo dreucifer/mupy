@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>mupy {% block title %}admin{% endblock %}</title>
+<script src="//cdn.ckeditor.com/4.4.7/full/ckeditor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="http://rangy.googlecode.com/svn/trunk/currentrelease/rangy-core.js"></script></head>
+<body>
+	<a href="{{ url_for('index') }}">Home</a> |
+	<a href="{{ url_for('add_page') }}">Add Page</a> |
+	<br />
+	{% block content %}
+		<a href="{{ url_for('add_page') }}">Add Page</a>
+		{% for page in pages %}
+			<p>{{ page.title }}</p>
+		{% endfor %}
+	{% endblock %}
+</body>
+</html>
