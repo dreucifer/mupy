@@ -1,3 +1,5 @@
+""" misc utils used throughout the app """
+import re
 from urlparse import urlparse, parse_qs
 
 
@@ -22,3 +24,23 @@ def video_id(value):
             return query.path.split('/')[2]
     # fail?
     return None
+
+
+def page_to_context(page):
+    """ convert page query return to template context dict """
+    return dict(page=page,
+                keywords=page.keywords,
+                description=page.description,
+                title=page.title,
+                body=page.body)
+
+_punct_re = re.compile(r'[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.]+')
+
+
+def slugify(text, delim='-'):
+    """Generates an slightly worse ASCII-only slug."""
+    result = []
+    for word in _punct_re.split(text.lower()):
+        if word:
+            result.append(word)
+    return delim.join(result)

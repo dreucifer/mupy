@@ -8,8 +8,8 @@ class Page(Base):
     __tablename__ = "pages"
 
     _id = Column(Integer, primary_key=True)
-    slug = Column(String)
-    title = Column(String)
+    slug = Column(String, unique=True)
+    title = Column(String, unique=True)
     keywords = Column(String)
     description = Column(Text)
     body = Column(Text)

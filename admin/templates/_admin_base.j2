@@ -8,10 +8,9 @@
     <script src="http://rangy.googlecode.com/svn/trunk/currentrelease/rangy-core.js"></script></head>
 <body>
 	<a href="{{ url_for('index') }}">Home</a> |
-	<a href="{{ url_for('add_page') }}">Add Page</a> |
+	<a href="{{ url_for('add') }}">Add Page</a> |
 	<br />
 	{% block content %}
-		<a href="{{ url_for('add_page') }}">Add Page</a>
 		{% for page in pages %}
 			<p>{{ page.title }}</p>
 		{% endfor %}

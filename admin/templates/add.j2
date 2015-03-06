@@ -4,11 +4,9 @@
     {{ field.label }}
     {{ field(**kwargs)|safe }}
     {% if field.errors %}
-        <ul class=errors>
         {% for error in field.errors %}
-            <li>{{ error }}</li>
+            {{ error }}, 
         {% endfor %}
-        </ul>
     {% endif %}
     <br>
 {% endmacro %}
@@ -16,9 +14,17 @@
 {% block title %}add{% endblock %}
 
 {% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                {{ message }} <br>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
 	Add Page Form
-    <form method="POST" action="{{ url_for('add_page') }}">
-        {{ render_field(form.slug) }}
+    <form method="POST" action="{{ url_for('add') }}">
+        {{ render_field(form.template) }}
         {{ render_field(form.title) }}
         {{ render_field(form.youtube) }}
         <input type="submit" value="Add Page">

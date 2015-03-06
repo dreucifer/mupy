@@ -1,0 +1,13 @@
+<div class="alert">
+<a href="{{ url_for('index', _external=True) }}">Home</a> >
+<a href="{{ url_for('edit', _external=True, slug=page.slug) }}">Edit</a> >
+<b>{{ title }}</b>
+</div>
+<br>
+
+{% extends '_base.j2' %}
+
+{% block header %}
+    <base href="http://alternatorparts.com/">
+    {{ super() }}
+{% endblock %}

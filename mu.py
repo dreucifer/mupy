@@ -151,9 +151,11 @@ def find_tagstring(taglist):
             return tag['content']
     return ''
 
+
 def decompose_if_exists(tag):
     if tag:
         tag.decompose()
+
 
 class Page(object):
     tmpl_env = None
@@ -213,6 +215,7 @@ class Engine(object):
                 page = Page.from_file(inpath)
                 with open(outpath, 'w') as outfile:
                     outfile.write(page.render().encode('utf-8', 'ignore'))
+
 
 class HTMLPage(Page):
     def __init__(self):

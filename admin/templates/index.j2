@@ -1,6 +1,17 @@
 {% extends "_admin_base.j2" %}
 {% block content %}
-	{% for page in pages %}
-		<a href="{{ url_for("edit_page", page_id=page._id) }}">{{ page.title }}</a>
-	{% endfor %}
+    <ul>
+        {% for page in pages %}
+        <li>
+            <form action="{{ url_for("delete") }}" method="POST">
+                {{ page.title }} -
+                <input type="hidden" name="page_id" value="{{ page._id }}">
+                <a href="{{ url_for("edit", slug=page.slug) }}">edit</a> -
+                <a href="{{ url_for("generate", slug=page.slug) }}">generate</a> -
+                <a href="{{ url_for('preview', slug=page.slug) }}">preview</a> -
+                <input type="submit" value="X">
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
 {% endblock %}
