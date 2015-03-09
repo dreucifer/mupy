@@ -1,23 +1,21 @@
 """ database models for mupy web admin """
-from sqlalchemy import Column, Integer, String, Text
-from admin.database import Base
+from admin import db
 
 
-class Page(Base):
+class Page(db.DynamicDocument):
     """ basic mupy page model """
-    __tablename__ = "pages"
 
-    _id = Column(Integer, primary_key=True)
-    slug = Column(String, unique=True)
-    title = Column(String, unique=True)
-    keywords = Column(String)
-    description = Column(Text)
-    body = Column(Text)
+    slug = db.StringField(required=True, max_length=255, unique=True)
+    title = db.StringField(required=True, max_length=255)
+    keywords = db.StringField()
+    description = db.StringField()
+    body = db.StringField(required=True)
 
-    def __init__(self, slug=None, title=None):
-        self.slug = slug
-        self.title = title
+    def __unicode__(self):
+        return self.title
 
-    def __repr__(self):
-        return "<Page(slug='%s', title='%s')>" % (
-            self.slug, self.title)
+    meta = {
+        'allow_inheritance': True,
+        'indexes': ['title', 'slug'],
+        'ordering': ['title']
+    }
