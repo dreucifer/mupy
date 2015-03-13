@@ -44,3 +44,11 @@ def slugify(text, delim='-'):
         if word:
             result.append(word)
     return delim.join(result)
+
+
+def _list_time(view, context, model, name):
+    """ formatter for time field in list view """
+    if not model.last_upload:
+        return unicode('Never')
+
+    return unicode(model.last_upload.strftime('%D %T'))

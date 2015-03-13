@@ -1,5 +1,5 @@
 """ database models for mupy web admin """
-from admin import db
+from mupy_admin import db
 
 
 class Page(db.DynamicDocument):
@@ -10,6 +10,7 @@ class Page(db.DynamicDocument):
     keywords = db.StringField()
     description = db.StringField()
     body = db.StringField(required=True)
+    last_upload = db.DateTimeField()
 
     def __unicode__(self):
         return self.title

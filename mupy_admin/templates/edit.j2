@@ -25,5 +25,8 @@
         <input type="submit" value="Save">
         <input type="button" value="Preview" onclick="window.location='{{ url_for('preview', slug=page.slug) }}'">
     </form>
-	<script>CKEDITOR.replace('body')</script>
+	<script>CKEDITOR.replace('body', {
+	    allowedContent: true,
+	    protectedSource: /<ins[\s|\S]+?<\/ins>/g
+	})</script>
 {% endblock %}

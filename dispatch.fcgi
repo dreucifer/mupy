@@ -4,7 +4,7 @@
 
 from werkzeug.contrib.fixers import CGIRootFix
 from flup.server.fcgi import WSGIServer
-from admin import app
+from mupy_admin import app
 
 if __name__ == '__main__':
     WSGIServer(CGIRootFix(app)).run()

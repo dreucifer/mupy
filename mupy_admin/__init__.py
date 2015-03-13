@@ -1,6 +1,7 @@
 """ mupy web admin """
 from os.path import dirname
 from flask import Flask
+from flask.ext.admin import Admin, AdminIndexView
 from flask.ext.mongoengine import MongoEngine
 
 OUTPUT_FOLDER = '/var/www/mupy/output'
@@ -16,4 +17,13 @@ app.secret_key = '\xe8\xb0\xce\x13\xe0\xaeR\xccVj\xc2\xf7S\xbe\xc8\x1d`\xfa\x13z
 
 db = MongoEngine(app)
 
-import admin.views
+admin = Admin(
+    app,
+    template_mode='bootstrap3',
+    index_view=AdminIndexView(
+        name="Home",
+        template="admin_index.html"
+    )
+)
+
+import mupy_admin.views

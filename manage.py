@@ -6,7 +6,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from flask.ext.script import Manager, Server
-from admin import app
+from mupy_admin import app
 
 manager = Manager(app)
 
