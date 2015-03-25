@@ -4,13 +4,10 @@
 import os
 from filecmp import dircmp, cmpfiles
 from markdown import markdown
-from typogrify.templatetags import jinja_filters
 from urllib import unquote
 import argparse
 import bs4
-import codecs
 import jinja2
-import os
 import os.path as op
 import re
 import sys
@@ -30,9 +27,9 @@ ROOT_LINK = re.compile(r'^[/]$')
 TEMPLATE_DIR = 'templates/'
 
 # snippet provided by Armin Ronacher http://flask.pocoo.org/snippets/5/
-from unicodedata import normalize
 
 _punct_re = re.compile(r'[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.]+')
+
 
 def slugify(text, delim='-'):
     """Generates an slightly worse ASCII-only slug."""
@@ -42,6 +39,7 @@ def slugify(text, delim='-'):
             result.append(word)
     return delim.join(result)
 
+
 def filter_buffer():
     with sys.stdin as stdin:
         soup = bs4.BeautifulSoup(stdin.read())
@@ -49,6 +47,7 @@ def filter_buffer():
     filter_links(links)
     page = str(soup)
     print page
+
 
 def filter_pages(fixdir='pages'):
     for path in os.listdir(fixdir):
@@ -69,6 +68,7 @@ def filter_pages(fixdir='pages'):
             with open(inpath, 'w') as outfile:
                 outfile.write(yaml.dump(page_data, default_flow_style=False))
 
+
 def filter_output(fixdir='output'):
     """List files in FIXDIR and process them for link fixing"""
     for path in os.listdir(fixdir):
@@ -83,19 +83,22 @@ def filter_output(fixdir='output'):
             with open(inpath, 'w') as writefile:
                 writefile.write(page.encode('utf-8', 'ignore'))
 
+
 def filter_links(links):
     for link in links:
         try:
             href = link['href']
         except KeyError:
             continue
-        scheme, netloc, path, query, fragment = urlparse.urlsplit(unquote(href))
+        scheme, netloc, path, query, fragment = urlparse.urlsplit(
+            unquote(href))
         if path == '' or path == '/':
             continue
         if path.endswith(('.html', '.htm')):
             path = path.split('/')[-1]
             if LOCAL.match(netloc) or netloc == '':
                 link['href'] = slugify(op.splitext(path)[0]) + '.html'
+
 
 def unpack_pages(fixdir='pages/'):
     for path in os.listdir(fixdir):
@@ -104,12 +107,14 @@ def unpack_pages(fixdir='pages/'):
             print inpath
             unpack_file(inpath)
 
+
 def pack_pages(fixdir='pages/'):
     for path in os.listdir(fixdir):
         inpath = op.join(fixdir, path)
         if op.isfile(inpath) and path.endswith('yml'):
             print inpath
             pack_file(inpath)
+
 
 def pack_file(filepath):
     print 'test'
@@ -118,8 +123,10 @@ def pack_file(filepath):
     with open(filepath, 'w') as writefile:
         writefile.write(yaml.dump(page_obj, default_flow_style=False))
 
+
 def tab_buffer(bufin):
     return '\n'.join('    ' + line for line in bufin.split('\n'))
+
 
 def unpack_file(filepath):
     fmt = """\
@@ -142,13 +149,16 @@ def unpack_file(filepath):
         writefile.write(yaml.dump(page, default_flow_style=False))
         writefile.write(fmt.format(body_tag=body_tag, body=body))
 
+
 def unpack_buffer():
     with sys.stdin as stdin:
         print stdin.read().decode('string-escape')
+
+
 def find_tagstring(taglist):
     for tag in taglist:
-        if tag:
-            return tag['content']
+        if tag is not None:
+            return tag['content'].encode('utf-8', 'ignore')
     return ''
 
 
@@ -161,12 +171,13 @@ class Page(object):
     tmpl_env = None
 
     def __init__(self):
+        from typogrify.templatetags import jinja_filters
         self.filename = None
         self.fulltext = None
         self.context = None
         self.template = DEFAULT_TEMPLATE
         self.tmpl_env = jinja2.Environment(
-                loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
+            loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
         jinja_filters.register(self.tmpl_env)
 
     @classmethod
@@ -200,6 +211,7 @@ class Page(object):
                     print "This shouldn't happen"
                     continue
                 self.context[key[:-3]] = markdown(value, extensions=['extra'])
+
 
 class Engine(object):
     def __init__(self, indir, outdir):
@@ -240,66 +252,101 @@ class HTMLPage(Page):
         title, keywords, description, body = '', '', '', ''
         try:
             print self.filename
-            title = self.soup.title.string.encode('utf-8')
-            if not title:
-                title = ''
+
+            title = self.soup.title
+            if title is None:
+                self.context = None
+                raw_input('Press Enter')
+                return
+            else:
+                if title.string is None:
+                    title = ''
+                else:
+                    title = title.string.encode('utf-8')
+
             keywords = find_tagstring(
-                    [self.soup.find('meta', {'name': 'keywords'}),
+                [self.soup.find('meta', {'name': 'keywords'}),
                     self.soup.find('meta', {'name': 'Keywords'})])
+
             description = find_tagstring(
-                    [self.soup.find('meta', {'name': 'description'}),
+                [self.soup.find('meta', {'name': 'description'}),
                     self.soup.find('meta', {'name': 'Description'})])
+
             decompose_if_exists(self.soup.find(id='header'))
             decompose_if_exists(self.soup.find(id='footer'))
+
             self.soup.head.decompose()
             self.soup.html.unwrap()
             self.soup.body.unwrap()
-            body = self.soup.encode('ascii', 'ignore')
-            body = '\n'.join(
-                    ['    '+line for line in str(body).split('\n')]
-                    ).encode('ascii', 'ignore')
+
+            gridbody = self.soup.find(id='gridbody')
+
+            if gridbody is not None:
+                for child in gridbody.children:
+                    body += str(child)
+            else:
+                body = self.soup.encode('ascii', 'ignore')
+
+            if body is None:
+                self.context = None
+                raw_input('Press Enter')
 
         except AttributeError, err:
             print err
-        self.context = """\
-title: "{title}"
-keywords: "{keywords}"
-description: "{description}"
-body: |
-{body}
-""".format(title=' '.join(title.strip('\n').split()),
-        keywords=keywords.strip('\n'),
-        description=description.strip('\n'),
-        body=body)
+
+        self.context = dict(
+            title=title,
+            keywords=keywords,
+            description=description,
+            body=body
+        )
+
 
 class Importer(Engine):
     def run(self):
         for line in os.listdir(self.indir):
             inpath = op.join(self.indir, line)
-            outpath = op.join(self.outdir, slugify(op.splitext(line)[0])+'.yml')
+            outpath = op.join(self.outdir, slugify(op.splitext(
+                line)[0])+'.yml')
             if op.isfile(inpath):
                 page = HTMLPage.from_file(inpath)
+                if page.context is None:
+                    print 'context empty, skipping file %s' % (inpath)
+                    continue
                 with open(outpath, 'w') as outfile:
-                    outfile.write(page.context)
+                    yamloutput = ''
+                    try:
+                        yamloutput = yaml.dump(
+                            page.context,
+                            default_flow_style=False
+                        )
+                    except RuntimeError as err:
+                        print err.message
+                        print "Page %s is totally boned" % inpath
+                        raw_input('Whooooops')
+                    outfile.write(yamloutput)
+
 
 def import_pages():
     engine = Importer('import', PAGES_DIR)
     engine.run()
 
+
 def compare_directories(dcmp):
     return cmpfiles(dcmp.left, dcmp.right, dcmp.common_files, True)
 
+
 def diff_output():
     dcmp = dircmp("output", "tmp")
-    vimdiff = "vimdiff -f %s %s"
     same_files, diff_files, funny_files = compare_directories(dcmp)
     for filename in diff_files:
         print filename
-        #os.system(vimdiff % (TEMP_DIR+filename, OUTPUT_DIR+filename))
+
 
 def mupy():
     engine = Engine(PAGES_DIR, OUTPUT_DIR)
     engine.run()
+
 
 def render_page(page_name):
     inpath = op.join(PAGES_DIR, page_name+'.yml')
@@ -309,24 +356,32 @@ def render_page(page_name):
         with open(outpath, 'w') as outfile:
             outfile.write(page.render().encode('utf-8', 'ignore'))
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(
-            description='some helpers and management functions for mupy')
+        description='some helpers and management functions for mupy')
     parser.add_argument('action', metavar='ACTION', type=str, nargs="?",
-            help='What are you going to do?', default=mupy)
-    parser.add_argument('-t', dest='target', metavar='TARGET', type=str, nargs=1,
-            help='And Where?')
+                        help='What are you going to do?', default='mupy')
+    parser.add_argument(
+        '-t',
+        dest='target',
+        metavar='TARGET',
+        type=str,
+        nargs=1,
+        help='And Where?'
+        )
     args = parser.parse_args()
-    if args.target:
-        print args.target[0]
+    print args
+    if args.target is not None:
         try:
-            locals()[args.action](args.target[0])
-        except KeyError, err:
-            print err
-    elif args.action != mupy:
-        try:
-            locals()[args.action]()
-        except KeyError, err:
-            print err
+            globals()[args.action](args.target[0])
+        except KeyError as err:
+            print err.message
     else:
-        args.action()
+        try:
+            globals()[args.action]()
+        except KeyError as err:
+            print err.message
+
+if __name__ == '__main__':
+    main()

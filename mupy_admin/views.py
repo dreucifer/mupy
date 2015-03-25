@@ -10,16 +10,41 @@ from flask.ext.admin._compat import itervalues, as_unicode
 from flask.ext.admin.actions import action
 from flask.ext.admin.base import expose
 from flask.ext.admin.contrib.mongoengine import ModelView
+from flask.ext.admin.contrib.mongoengine.form import get_form
+from flask.ext.admin.form import FormOpts
 from flask.ext.admin.helpers import get_form_data, get_redirect_target
 
 from . import app, admin
-from .forms import AddForm
-from .models import Page
-from .utils import video_id, page_to_context, slugify, _list_time
+from .forms import AddForm, AddYoutubeForm, ProductsModelConverter
+from .models import Pages, Products, Shelves, ShelfBin
+from .utils import video_id, page_to_context, slugify
+from .formatters import _list_time, _list_prices
 
 
 # admin views
-class PageModelView(ModelView):
+class ProductsModelView(ModelView):
+    """ MongoEngine model view for managing products (with prices)
+    """
+
+    def scaffold_form(self):
+        form_class = get_form(self.model,
+                              self.model_form_converter(self),
+                              base_class=self.form_base_class,
+                              only=self.form_columns,
+                              exclude=self.form_excluded_columns,
+                              field_args=self.form_args,
+                              extra_fields=self.form_extra_fields)
+
+        return form_class
+
+    model_form_converter = ProductsModelConverter
+    column_list = ('name', 'short_desc', 'price')
+    column_formatters = {
+        'price': _list_prices
+    }
+
+
+class PagesModelView(ModelView):
     """ Custom Mongoengine model view for creating pages from
         youtube links, pdfs, etc. create_view uses customized
         forms based on the page-type template.
@@ -31,21 +56,34 @@ class PageModelView(ModelView):
             return '. '.join(itervalues(error.to_dict()))
         return as_unicode(error)
 
+    def render_body(self, form, model):
+        if self.template == '_youtube.j2':
+            return render_template(join('posts/', self.template),
+                                   video_id=video_id(form.youtube.data),
+                                   page=model)
+
+        return render_template('posts/_base.j2', page=model)
+
+    def is_action_allowed(self, name):
+        """ lets you know if this view can upload """
+        if name == 'upload' and not self.can_upload:
+            return False
+
+        return super(PagesModelView, self).is_action_allowed(name)
+
     def get_create_form(self):
         """ this will return the proper form based on the selected
             template
         """
+        if self.template == '_youtube.j2':
+            return AddYoutubeForm
+
         return AddForm
 
     def create_form(self, obj=None):
         """ instantiate the custom forms based on selected template """
-        try:
-            templates = listdir(join(app.config['ABSOLUTE_PATH'],
-                                app.template_folder, 'posts'))
-        except OSError:
-            return self.get_form()
+        self._create_form_class = self.get_create_form()
         form = self._create_form_class(get_form_data(), obj=obj)
-        form.template.choices = zip(templates, templates)
         return form
 
     def create_model(self, form):
@@ -54,12 +92,9 @@ class PageModelView(ModelView):
         """
         try:
             model = self.model()
-            template = getattr(form.template, "data", "_youtube.j2")
             model.slug = slugify(form.title.data)
             model.title = form.title.data
-            model.body = render_template(join('posts/', template),
-                                         video_id=video_id(form.youtube.data),
-                                         page=model)
+            model.body = self.render_body(form, model)
             model.save()
         except Exception as ex:
             if not self.handle_view_exception(ex):
@@ -69,13 +104,6 @@ class PageModelView(ModelView):
         else:
             self.after_model_change(form, model, True)
         return True
-
-    def is_action_allowed(self, name):
-        """ lets you know if this view can upload """
-        if name == 'upload' and not self.can_upload:
-            return False
-
-        return super(PageModelView, self).is_action_allowed(name)
 
     def upload_model(self, obj):
         """ Creates a fake file with cStringIO, then uploads it via FTP """
@@ -114,6 +142,32 @@ class PageModelView(ModelView):
             if not self.handle_view_exception(ex):
                 flash('Failed to upload Pages {error}'.format(error=str(ex)),
                       'error')
+
+    @expose('/new/', methods=('GET', 'POST'))
+    def create_view(self):
+        return_url = get_redirect_target() or self.get_url('.index_view')
+
+        if not self.can_create:
+            return redirect(return_url)
+
+        self.template = request.args.get('template', None)
+        form = self.create_form()
+
+        if self.validate_form(form):
+            if self.create_model(form):
+                if '_add_another' in request.form:
+                    flash(gettext('Record was successfully created.'))
+                    return redirect(request.url)
+                else:
+                    return redirect(return_url)
+
+        form_opts = FormOpts(widget_args=self.form_widget_args,
+                             form_rules=self._form_create_rules)
+
+        return self.render(self.create_template,
+                           form=form,
+                           form_opts=form_opts,
+                           return_url=return_url)
 
     @expose('/upload/', methods=['GET', 'POST'])
     def upload_view(self):
@@ -159,16 +213,21 @@ class PageModelView(ModelView):
         return redirect(return_url)
 
     can_upload = True
-    form_excluded_columns = ('last_upload', 'slug')
+    form_excluded_columns = ('last_upload')
+    column_filters = ('title', 'slug')
     column_list = ('title', 'last_upload')
     column_formatters = {
         'last_upload': _list_time
     }
+    template = None
     create_template = 'edit.html'
     edit_template = 'edit.html'
     list_template = 'list.html'
 
-admin.add_view(PageModelView(Page, name='Pages'))
+
+admin.add_view(PagesModelView(Pages, name='Pages'))
+admin.add_view(ProductsModelView(Products, name='Products'))
+admin.add_view(ModelView(Shelves, name='Shelves'))
 
 # regular views
 
