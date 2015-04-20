@@ -40,7 +40,7 @@ class ProductsModelConverter(CustomModelConverter):
 
 
 class AddForm(BaseForm):
-    title = TextField('Page Title', [validators.Length(min=5, max=67)])
+    title = TextField('Page Title', [validators.Length(min=5, max=255)])
 
 
 class AddYoutubeForm(AddForm):
@@ -48,8 +48,8 @@ class AddYoutubeForm(AddForm):
 
 
 class EditForm(BaseForm):
-    slug = TextField('New Page URL', [validators.Length(min=15, max=45)])
-    title = TextField('Page Title', [validators.Length(min=5, max=67)])
+    slug = TextField('New Page URL', [validators.Length(min=5, max=255)])
+    title = TextField('Page Title', [validators.Length(min=5, max=255)])
     body = TextAreaField('Page Body', [validators.Required()])
     keywords = TextField('Keywords')
     description = TextAreaField('Description')

@@ -80,9 +80,6 @@
         <tr>
             <th colspan="4">
                 <h3>{{ product_set.title }}</h3>
-                <p>
-                    {{ product_set.intro }}
-                </p>
             </th>
         </tr>
         <tr>
@@ -101,6 +98,7 @@
         </tr>
     </thead>
     <tbody>
+    {% if product_set.products is defined %}
     {% for product in product_set.products %}
         <tr>
             <td>
@@ -120,6 +118,7 @@
             </td>
         </tr>
     {% endfor %}
+    {% endif %}
     </tbody>
 </table>
 {% endmacro %}

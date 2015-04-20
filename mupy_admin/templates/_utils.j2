@@ -75,51 +75,58 @@
 {% endmacro %}
 
 {% macro product_table(product_set) %}
-<table class="table table-striped product-list col-md-12">
-    <thead>
-        <tr>
-            <th colspan="4">
-                <h3>{{ product_set.title }}</h3>
-                <p>
+<div class="table-responsive">
+    <table class="table table-striped product-list col-md-12">
+        <thead>
+            <tr>
+                <th colspan="4">
+                    <h3>{{ product_set.title }}</h3>
+                    {% if product_set.intro is defined %}
+                    <p>
                     {{ product_set.intro }}
-                </p>
-            </th>
-        </tr>
-        <tr>
-            <th>
-                add to cart
-            </th>
-            <th>
-                price
-            </th>
-            <th>
-                name
-            </th>
-            <th>
-                description
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-    {% for product in product_set.products %}
+                    </p>
+                    {% endif %}
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    add to cart
+                </th>
+                <th>
+                    price
+                </th>
+                <th>
+                    name
+                </th>
+                <th>
+                    description
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for product in product_set.products %}
         <tr>
             <td>
-                <form action="{{ product.url }}" method="post">
+                <form action="http://store.alternatorparts.com/{{ product.url }}.aspx" method="post">
+                    {% if product.variation == true %}
+                    <input name="variationid" type="hidden" value="{{ product.product_id }}">
+                    {% endif %}
+                    <input name="quantity" type="hidden" value="1">
                     <input name="addtocart" src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_add.gif" type="image"/>
-                    <input src="http://store.alternatorparts.com/themes/migration-1/images/buttons/cart_btn_view.gif" type="image"/>
                 </form>
             </td>
             <td>
-                <b class='red'>{{ product.price }}</b>
+                <b class='red'>${{ product.price.net }}</b>
             </td>
             <td>
                 <b>{{ product.name }}</b>
             </td>
             <td>
-                <p>{{ product.description }}</p>
+                <p>{{ product.short_desc }}</p>
             </td>
         </tr>
-    {% endfor %}
-    </tbody>
-</table>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
 {% endmacro %}

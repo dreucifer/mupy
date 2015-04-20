@@ -28,11 +28,14 @@ def video_id(value):
 
 def page_to_context(page):
     """ convert page query return to template context dict """
-    return dict(page=page,
-                keywords=page.keywords,
-                description=page.description,
-                title=page.title,
-                body=page.body)
+    return dict(
+        page=page,
+        keywords=page.keywords,
+        description=page.description,
+        title=page.title,
+        body=page.body,
+        product_sets=page.product_sets
+    )
 
 _punct_re = re.compile(r'[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.]+')
 

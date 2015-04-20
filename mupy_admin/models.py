@@ -4,14 +4,28 @@ from .fields import PriceField
 
 
 class MetaData(db.EmbeddedDocument):
-    title = db.StringField(max_length=75)
-    keywords = db.StringField(max_length=255)
-    desc = db.StringField(max_length=500)
+    title = db.StringField()
+    keywords = db.StringField()
+    desc = db.StringField()
+
+
+class ImportProducts(db.DynamicDocument):
+    """ Collection for imported products """
+    product_id = db.LongField(unique=True)
+    variation = db.BooleanField()
+    variations = db.ListField(db.StringField())
+    name = db.StringField()
+    meta = {
+        'allow_inheritance': False,
+        'indexes': ['product_id'],
+        'ordering': ['product_id']
+    }
 
 
 class Products(db.DynamicDocument):
     """ products for pages """
-    name = db.StringField(max_length=75, required=True, unique=True)
+    name = db.StringField(required=True)
+    product_id = db.IntField(unique=True)
     short_desc = db.StringField(max_length=255)
     long_desc = db.StringField()
     part_num = db.StringField(max_length=75)
@@ -20,12 +34,14 @@ class Products(db.DynamicDocument):
     weight = db.DecimalField()
     manufacturer_partn = db.StringField(max_length=75)
     manufacturer_name = db.StringField(max_length=75)
-    url = db.StringField(max_length=75)
+    url = db.StringField()
     meta_data = db.EmbeddedDocumentField(MetaData)
+    variation = db.BooleanField(default=False)
+    variations = db.ListField(db.IntField())
     meta = {
         'allow_inheritance': True,
-        'indexes': ['name', 'url'],
-        'ordering': ['name']
+        'indexes': ['name', 'url', 'product_id'],
+        'ordering': ['price', 'name']
     }
 
     def __unicode__(self):
@@ -45,26 +61,31 @@ class Shelves(db.DynamicDocument):
     bins = db.ListField(db.EmbeddedDocumentField(ShelfBin))
 
 
-class ProductSet(db.EmbeddedDocument):
+class ProductSets(db.EmbeddedDocument):
     """ Product set for pages, includes intro, products, etc """
     title = db.StringField(max_length=75)
     products = db.ListField(db.ReferenceField(Products))
+    meta = {
+        'allow_inheritance': False,
+        'ordering': ['sort_order']
+    }
 
 
 class Pages(db.DynamicDocument):
     """ basic mupy page model """
 
+    page_num = db.IntField()
     slug = db.StringField(required=True, max_length=255, unique=True)
     title = db.StringField(required=True, max_length=255)
     keywords = db.StringField()
     description = db.StringField()
     body = db.StringField(required=True)
     last_upload = db.DateTimeField()
-    products = db.EmbeddedDocumentField(ProductSet)
+    product_sets = db.ListField(db.EmbeddedDocumentField(ProductSets))
     meta = {
         'allow_inheritance': True,
-        'indexes': ['title', 'slug'],
-        'ordering': ['title']
+        'indexes': ['title', 'slug', 'keywords'],
+        'ordering': ['page_num', 'title']
     }
 
     def __unicode__(self):
